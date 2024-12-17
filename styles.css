@@ -174,11 +174,13 @@ body {
 
 
 
-
-
 }
 
 @media (min-width: 320px ) {
+
+body {
+    height: 900px;
+}
 
 .nav-bar {
     padding-top: 20px;
@@ -366,4 +368,51 @@ body {
     font-size: 10.8px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+
+
+/* Скрытое меню */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100%; /* За пределами экрана */
+    width: 70%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+/* Меню открыто */
+.menu-active {
+    left: 0; /* Выезжает на экран */
+}
+
+/* Логотип внутри меню */
+.menu-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Отступы сверху и снизу */
+    border-bottom: 1px solid #ccc; /* Разделительная линия */
+}
+
+.menu-logo img {
+    width: 100px; /* Ширина твоего логотипа */
+    height: auto;
+}
+
+.menu2 {
+    font-size: 13px;
+    padding: 10px;
+}
+
+#menuli {
+    padding: 7px;
+    font-size: 13px;
+    font-weight: bold;
+
 }
