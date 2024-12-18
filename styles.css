@@ -160,11 +160,275 @@ body {
 
 
 
-@media (min-width:  480px ) {
+@media (min-width:  480px ) and (max-width: 768px) {
+    body {
+        height: 1200px;
+        font-family: RoboTo;
+    }
+
+    .nav-bar {
+        padding-top: 20px;
+    }
+    
+    .menu {
+        width: 30px;
+        height: 25px;
+    }
+
+
+    .dostavka {
+        display: block; 
+
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav1 {
+        display: flex;
+        justify-content: space-around;
+        width: 250px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    
+    .search-container {
+        border: 1px solid #ccc;
+        background-color: #ffffff;
+        width: auto;
+        height: 40px;
+        margin: 15px 17px 0px 17px;
+    
+    
+    
+    }
+    
+    /* Поле ввода */
+    .search-container input {
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: #333;
+        width: auto;
+        height: 40px;
+        justify-content: center;
+        padding-left: 15px;
+        
+    }
+
+
+    
+.navigav {
+    display: flex;
+    justify-content: center; 
+    padding-top: 22px;
+}
+
+.navigavM {
+    margin: 0px 20px 0px 20px;
+}
+
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100%; /* За пределами экрана */
+    width: 70%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: left 0.3s ease-in-out;
+    z-index: 100;
+}
+
+/* Меню открыто */
+.menu-active {
+    left: 0; /* Выезжает на экран */
+}
+
+/* Логотип внутри меню */
+.menu-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Отступы сверху и снизу */
+    border-bottom: 1px solid #ccc; /* Разделительная линия */
+    z-index: 100;
+
+}
+
+.menu-logo img {
+    width: 100px; /* Ширина твоего логотипа */
+    height: auto;
+    z-index: 1000;
+
+}
+
+
+#menuli {
+    padding: 7px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+
+.reklama {
+    background-color: #f4f4f4;
+    width: 50%;
+    height: 127px;
+    z-index: 10;
+    margin-top: 20px;
+}
+
+.reklama h2 {
+ font-size: 18px;
+ margin-bottom: 7px;
+ position: relative;
+ left: 15%;
+ top: 25%;
+ z-index: 10;
+
+}
+.reklama p {
+    font-size: 14px;
+    position: relative;
+    width: auto; 
+    left: 16%;
+    top: 25%;
+    z-index: 10;
+}
+
+.reklama1 img {
+    position: absolute;
+    width: 100%;
+    height: 127px;
+    z-index: 0;
+
+}
+
+.menu {
+    z-index: 10000;
+}
 
 
 
 
+.magazin h2 {
+    font-size: 18px;
+    color: #414141;
+    padding: 20px 15px 15px 40px;
+    font-weight: 900;
+}
+
+
+
+.magazin1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.stul {
+    width: 30%;
+    height: auto;
+    margin-left: 10%;
+
+}
+.heart {
+    position: relative;
+    left: 66%;
+    
+}
+
+.divan {
+    width: 30%;
+    height: auto;
+    margin-left: 10%;
+}
+
+
+.stilPrice1 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #414141;
+}
+
+.stilPrice2 {
+    font-size: 13px;
+    margin-top: 5px;
+
+}
+
+.stilPrice3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+
+} 
+
+.stilPrice4 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.stilPrice6 {
+    display: flex;
+}
+
+.stilPrice5 {
+ font-size: 12px;
+ color:#CCCCCC;
+ text-decoration: line-through;
+ padding-left: 7px;
+ margin-top: 5px;
+}
+
+
+
+.stol {
+    width: 30%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.shkaf {
+    width: 30%;
+    height: auto;
+    margin-left: 3%;
+
+}
+
+
+.magazin11 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.stilPrice12 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.stilPrice13 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
 
 
 
@@ -176,7 +440,7 @@ body {
 
 }
 
-@media (min-width: 320px ) {
+@media (min-width: 320px ) and (max-width: 480px) {
 
 body {
     height: 900px;
@@ -189,6 +453,7 @@ body {
 .menu {
     width: 30px;
     height: 25px;
+    z-index: 1000;
 }
 
 .nav {
@@ -200,6 +465,10 @@ body {
     justify-content: space-between;
     width: 92px;
     height: auto;
+}
+
+.dostavka {
+    display: none;
 }
 
 
@@ -306,7 +575,7 @@ body {
     height: auto;
 }
 
-}
+
 
 
 .stilPrice1 {
@@ -383,7 +652,7 @@ body {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
     transition: left 0.3s ease-in-out;
-    z-index: 1000;
+    z-index: 10;
 }
 
 /* Меню открыто */
@@ -398,11 +667,14 @@ body {
     align-items: center;
     padding: 20px 0; /* Отступы сверху и снизу */
     border-bottom: 1px solid #ccc; /* Разделительная линия */
+    z-index: 1000;
 }
 
 .menu-logo img {
     width: 100px; /* Ширина твоего логотипа */
     height: auto;
+    z-index: 1000;
+
 }
 
 .menu2 {
@@ -414,5 +686,8 @@ body {
     padding: 7px;
     font-size: 13px;
     font-weight: bold;
+
+}
+
 
 }
