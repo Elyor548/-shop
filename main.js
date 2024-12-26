@@ -22,3 +22,5 @@ mobileMenu.addEventListener("click", (event) => {
     event.stopPropagation(); // Останавливаем событие, чтобы меню не закрывалось
   }
 });
+
+
