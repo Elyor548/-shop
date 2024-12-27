@@ -272,7 +272,9 @@ body {
 }
 
 @media (min-width:  768px ) /*and (max-width: 992px)*/ {
-
+body {
+    height: 1200px;
+}
 .stul , .stol , .shkaf  {
     display: none;
 }
