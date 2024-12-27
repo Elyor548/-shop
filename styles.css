@@ -271,9 +271,9 @@ body {
 
 }
 
-@media (min-width:  768px ) and (max-width: 992px) {
+@media (min-width:  768px ) /*and (max-width: 992px)*/ {
 
-.stul {
+.stul , .stol , .shkaf  {
     display: none;
 }
 .divan {
@@ -286,6 +286,9 @@ body {
         display: none;
     }
 .nav {
+    display: none;
+}
+.magazin1 {
     display: none;
 }
 
@@ -429,15 +432,56 @@ body {
 
 
 
-.magazin1 {
+.magazin768{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: end;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 5.5%;
+}
+
+.divan768 {
+    width: 30%;
+    height: auto;
+
+}
+.heart {
+    position: relative;
+    left: 66%;
+    
 }
 
 
+.price7681 {
+    width: auto;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #414141;
+}
 
+.price7682 {
+    width: auto;
+    font-size: 13.5px;
+    margin-top: 5px;
+
+}
+
+.price7683 {
+    width: auto;
+    font-size: 14.5px;
+    font-weight: bold;
+    margin-top: 5px;
+
+} 
+
+
+.magazin2768 {
+
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-top: 7%;
+}
 
 
 
@@ -456,6 +500,10 @@ body {
     body {
         height: 1200px;
         font-family: RoboTo;
+    }
+
+    .magazin768 , .magazin2768  {
+        display: none;
     }
 
     .reklama992 {
@@ -756,6 +804,10 @@ body {
 
 body {
     height: 900px;
+}
+
+.magazin768 , .magazin2768  {
+    display: none;
 }
 
 .reklama992 {
