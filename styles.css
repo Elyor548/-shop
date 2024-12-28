@@ -103,51 +103,51 @@ html {
 
 body {
     font-family: Roboto;
-    .mobile-menu {
-        position: fixed;
-        top: 0;
-        left: -100%; /* За пределами экрана */
-        width: 70%;
-        height: 100%;
-        background-color: #ffffff;
-        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-        padding: 20px;
-        transition: left 0.3s ease-in-out;
-        z-index: 100;
-      }
-      .menu-active {
-        left: 0; /* Выезжает на экран */
-    }
-    
-    /* Логотип внутри меню */
-    .menu-logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px 0; /* Отступы сверху и снизу */
-        border-bottom: 1px solid #ccc; /* Разделительная линия */
-        z-index: 100;
-    
-    }
-    
-    .menu-logo img {
-        width: 100px; /* Ширина твоего логотипа */
-        height: auto;
-        z-index: 1000;
-    
-    }
-    
-    
-    #menuli {
-        padding: 7px;
-        font-size: 13px;
-        font-weight: bold;
-    
-    }
-    
-    
-      
+    height: 1400px;
 }
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100%; /* За пределами экрана */
+    width: 70%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: left 0.3s ease-in-out;
+    z-index: 100;
+  }
+  .menu-active {
+    left: 0; /* Выезжает на экран */
+}
+
+/* Логотип внутри меню */
+.menu-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Отступы сверху и снизу */
+    border-bottom: 1px solid #ccc; /* Разделительная линия */
+    z-index: 100;
+
+}
+
+.menu-logo img {
+    width: 100px; /* Ширина твоего логотипа */
+    height: auto;
+    z-index: 1000;
+
+}
+
+
+#menuli {
+    padding: 7px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+
 
 
 
@@ -485,13 +485,92 @@ body {
     padding-top: 7%;
 }
 
+.foterN {
+    width: 100%;
+    padding: 10% 0% 0% 3%;
+    font-size: 17px;
+    font-weight: 900;
+}
 
 
+.nav-foter {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
 
 
+.fot-li {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 7%;
+}
 
 
+.fot {
+    display: flex;
+    justify-content: space-between;
+}
 
+.kontac {
+    width: 25%;
+    padding-right: 5%;
+}
+
+.logo-fut {
+    display: flex;
+    justify-content: end;
+    padding: 0% 0% 10% 1%;
+    height: 60px;
+
+}
+.lokated {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.the-end {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+
+.tel {
+    display: flex;
+    width: 25%;
+}
+
+.insta {
+    display: flex;
+    width: 25%;
+
+}
+
+.email {
+    display: flex;
+    width: 25%;
+
+}
+
+.akcia {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+
+.img-fot {
+    margin: 0px 10px 0px 0px;
+}
+
+
+#red {
+    color: red;
+}
 
 
 }
@@ -504,7 +583,7 @@ body {
         font-family: RoboTo;
     }
 
-    .magazin768 , .magazin2768  {
+    .magazin768 , .magazin2768 , .foter768  {
         display: none;
     }
 
@@ -808,7 +887,7 @@ body {
     height: 900px;
 }
 
-.magazin768 , .magazin2768  {
+.magazin768 , .magazin2768 , .foter768   {
     display: none;
 }
 
