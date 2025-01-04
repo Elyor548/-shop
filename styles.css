@@ -154,7 +154,6 @@ body {
 
 
 
-@media (min-width: 1200px ) {
 
 
 
@@ -166,102 +165,371 @@ body {
 
 
 
+
+
+
+
+
+
+
+@media (min-width:  1140px ) {
+ .menu , .nav , .baner992 , .reklama , .stul , .stol , .shkaf ,
+  .navigav ,  .search-container ,
+   .dostavka , .rek , .magazin , .magazin768 , .magazin2768 {
+    display: none;
+}
+
+body {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbig {
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(49, 49, 49, 1);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbig {
+    position: relative;
+    left: -15%;
+    right: -10%;
+    width: calc(100% + 30%);
+}
+
+
+.nav4 {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+
+.nav44{
+    display: flex;
+    justify-content: space-around;
+    width: 30%
+}
+.navas   {
+    width: 12%;
+    height: auto;
+}
+.logo {
+    height: 27px;
+}
+
+
+.nava {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding-top: 2.5%;
+}
+
+
+
+.nav3 {
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+
+
+
+.search-containera {
+    border: 1.5px solid rgba(230, 230, 230, 1);
+    background-color: #f9f9f9;
+    width: auto;
+    height: 40px;
+    width: 65%;
 
 
 
 
 }
 
-@media (min-width:  992px ) {
+.search-containera input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #333;
+    width: auto;
+    height: 40px;
+    justify-content: center;
+    
+}
+
+
+.navigav992box {
+    width:auto;
+    padding-top: 2%;
+    padding-bottom: 3.5%;
+}
+
+.navigav992{
+    width: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 
+    0 30px 60px rgba(255, 255, 255, 0.8), 
+    0 5px 10px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    margin-right: 2.5%;
+}
+
+.nav55 {
+    color: red;
+}
+.reklama1140px {
+    position: relative;
+}
+
+.reklama11411 {
+    overflow: hidden;
+    margin-right: 2.5%;
+    position: relative;
+    z-index: 0;
+}
+
+.reklama11401 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 10;
+}
+
+.reklama11411 img {
+    width: 100%; /* Изображение растягивается по ширине контейнера */
+    height: auto; /* Сохраняет пропорции */
+    object-fit: cover; /* Масштабирование, чтобы изображение заполнило блок */
+}
+
+
+.rek1140 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 52.65px;
+    color: rgba(60, 60, 60, 1);
+    
+}
+
+.rek1141 {
+    color: rgba(52, 52, 52, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+.rek3 {
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Белый фон */
+    color: #000000; /* Черный текст */
+    font-size: 14px;
+    
+
+}
+
+.magazin1140 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7%;
+}
+
+
+.magaz {
+    margin-top: 3%;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: rgba(65, 65, 65, 1);
+}
+
+ 
+.heart {
+    position: relative;
+    left: 100%;
+}
+
+.row2 {
+    padding-top: 10%;
+}
 
 
 
-    .mobile-menu {
-        display: none;
-     }
-    
-     .menu {
-        display: none;
-     }
-    
-    .navigav {
-        display: none;
-    }
-    
-    .reklama {
-        display: none;
-    }
-    .dostavka {
-        display: none;
-    }
-    
-    .nav {
-        display: none;
-    }
-    
-    .search-container {
-        display: none;
-    }
-    
-    
-    .nav22 {
-        background-color: #313131;
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        color: #ffffff;
-        height: 40px;
-    }
-    
-    .nav222 {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 40%;
-        font-size: 17px;
-    }
-    
-    .nav2222 {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 40%;
-        font-size: 17px;
-    }
-    
-    
-    .navi {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .search-containerr {
-        border: 1px solid #ccc;
-        background-color: #ffffff;
-        width: auto;
-        height: 40px;
-        margin: 15px 17px 0px 17px;
-    
-    
-    
-    }
-    
-    /* Поле ввода */
-    .search-containerr input {
-        border: none;
-        outline: none;
-        font-size: 16px;
-        color: #333;
-        width: auto;
-        height: 40px;
-        justify-content: center;
-        padding-left: 15px;
-        
-    }
-    
-.baner992 {
+.row3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18.75px;
+    padding: 2% 0  4% 0;
+}
+
+.row4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12.89px;
+    padding: 2% 0  4% 0;
+}
+
+.row5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+
+.row6 {
+    font-size: 14px;
+    color:#CCCCCC;
+    text-decoration: line-through;
+    padding-left: 7px;
+    margin-top: 5px;
+   }
+
+
+   .row7 {
+    display: flex;
+   }
+
+
+
+.foter768 {
+    width: 100%;
+    height: 20%;
+    box-shadow: 
+    0 30px 60px rgba(255, 255, 255, 0.8), /* Яркая белая тень */
+    0 30px 50px rgba(0, 0, 0, 0.3); /* Более выраженная чёрная тень */
+}
+
+.foter768 {
+    position: relative;
+    left: -15%;
+    right: -10%;
+    width: calc(100% + 30%);
+    padding-left: 15%;
+    padding-right: 10%;
+
+}
+
+.foterN {
+    width: 50%;
+    font-size: 17px;
+    font-weight: 900;
+    padding-left: 3%;
+    padding-top: 4%;
+}
+
+
+.nav-foter {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.fot-li {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 7%;
+}
+
+
+.fot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kontac {
+    width: 25%;
+    padding-right: 5%;
+}
+
+.logo-fut {
+    display: flex;
+    justify-content: end;
+    padding: 0% 0% 10% 1%;
+    height: 60px;
+
+}
+.lokated {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+
+.the-end {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-left: 1%;
+}
+
+
+.tel {
+    display: flex;
+    width: 15%;
+}
+
+.insta {
+    display: flex;
+    width: 15%;
+
+}
+
+.email {
+    display: flex;
+    width: 16%;
+
+}
+
+.akcia {
+    display: flex;
+    justify-content: space-around;
+    width: 16%;
+}
+
+
+.img-fot {
+    margin: 0px 10px 0px 0px;
+}
+
+
+#red {
+    color: red;
+}
+
+.men {
+    display: flex;
+    justify-content: space-around;
     width: 100%;
 }
+
+
+
+
+
+
+
 
 
 }
@@ -270,7 +538,7 @@ body {
 body {
     height: 1200px;
 }
-.stul , .stol , .shkaf  {
+.stul , .stol , .shkaf , .navbig  ,.nav5 , .nav55 , .reklama1140px , .magaz1140 ,.magazin1140  {
     display: none;
 }
 .divan {
@@ -318,7 +586,7 @@ body {
 }
 
 .search-containera {
-    border: 1px solid #f9f9f9;
+    border: 1.5px solid rgba(230, 230, 230, 1);
     background-color: #f9f9f9;
     width: auto;
     height: 40px;
@@ -596,7 +864,7 @@ body {
         font-family: RoboTo;
     }
 
-    .magazin768 , .magazin2768 , .foter768  {
+    .magazin768 , .magazin2768 , .foter768 , .navbig  ,.nav5 ,.nav55  , .reklama1140px , .magaz1140  ,.magazin1140  {
         display: none;
     }
 
@@ -651,8 +919,8 @@ body {
 
     
     .search-container {
-        border: 1px solid #ccc;
-        background-color: #ffffff;
+        border: 1.5px solid rgba(230, 230, 230, 1);
+        background-color: #f9f9f9;
         width: auto;
         height: 40px;
         margin: 15px 17px 0px 17px;
@@ -743,6 +1011,7 @@ body {
 .reklama h2 {
  font-size: 18px;
  margin-bottom: 7px;
+ padding-top: 20px;
  position: relative;
  left: 15%;
  top: 25%;
@@ -761,7 +1030,7 @@ body {
 .reklama1 img {
     position: absolute;
     width: 100%;
-    height: 127px;
+    height: 20%;
     z-index: 0;
 
 }
@@ -900,8 +1169,8 @@ body {
     height: 900px;
 }
 
-.magazin768 , .magazin2768 , .foter768   {
-    display: none;
+.magazin768 , .magazin2768 , .foter768 , .navbig ,.nav5 ,.nav55  , .reklama1140px , .magaz1140  ,.magazin1140    {
+    display: none; 
 }
 
 .reklama992 {
@@ -946,8 +1215,8 @@ body {
 
 
 .search-container {
-    border: 1px solid #ccc;
-    background-color: #ffffff;
+    border: 1.5px solid rgba(230, 230, 230, 1);
+    background-color: #f9f9f9;
     width: auto;
     height: 40px;
     margin: 15px 17px 0px 17px;
@@ -973,11 +1242,11 @@ body {
     display: flex;
     justify-content: center; 
     padding-top: 15px;
+    gap: 3%;
 }
 
 
 .reklama {
-    background-color: #f4f4f4;
     width: 50%;
     height: 127px;
     z-index: 9;
@@ -996,7 +1265,7 @@ body {
 .reklama p {
     font-size: 10px;
     position: relative;
-    width: 107px; 
+    width: auto; 
     left: 7%;
     top: 25%;
     z-index: 9;
@@ -1005,7 +1274,7 @@ body {
 .reklama1 img {
     position: absolute;
     width: 100%;
-    height: 127px;
+    height: 13%;
     z-index: 0;
 
 }
