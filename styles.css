@@ -266,7 +266,7 @@ body {
 
 }
 
-@media (min-width:  768px ) and (max-width: 992px) {
+@media (min-width:  768px ) and (max-width: 1140px) {
 body {
     height: 1200px;
 }
@@ -395,11 +395,11 @@ body {
 
 .rek1 {
     position: absolute;
-    top: 60px;
+    top: 65px;
     color: #ffffff;
     font-size: 22px;
     line-height: 28px;
-    width: auto;
+    width: 80%;
     height: auto;
     z-index: 9;
 }
