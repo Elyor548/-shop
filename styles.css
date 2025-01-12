@@ -365,7 +365,7 @@ body {
  
 .heart {
     position: relative;
-    left: 100%;
+    left: 90%;
 }
 
 .row2 {
@@ -393,6 +393,8 @@ body {
     font-weight: 500;
     line-height: 18.75px;
 }
+
+
 
 
 .row6 {
@@ -532,6 +534,149 @@ body {
     gap: 15px;
     padding-right: 10%;
 }
+
+
+.product-details {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease, height 0.3s ease;
+    padding-top: 5%;
+}
+
+.row30:hover .product-details {
+    opacity: 1;
+    visibility: visible;
+    height: auto; 
+}
+
+.row15 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+
+
+ .razmer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(196, 196, 196, 1);
+ }
+
+ .raz {
+    font-size: 15px;
+    color: rgba(65, 65, 65, 1);
+    font-weight: 400;
+    padding-left: 3.5%;
+    margin-bottom: 3%;
+    
+ }
+
+ .razmer2 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+ }
+
+
+.razmer3 {
+    background-color:rgba(36, 84, 98, 1);
+    
+}
+
+.razmer33 {
+    color: #f9f9f9;
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12%;
+
+}
+
+
+.row999:hover .row30 {
+    width: 270px;
+    height: 488px;
+    box-shadow: 
+    0 40px 60px rgba(255, 255, 255, 0.8), 
+    0 40px 50px rgba(0, 0, 0, 0.3);
+    padding-top: 20%;
+}
+
+.row999:hover img {
+    position: relative;
+    left: 11.5%;
+}
+
+.row999:hover .heart {
+    position: relative;
+    left: 80%;
+}
+
+.row999:hover .row3  {
+    position: relative;
+    left: 5%;
+}
+
+.row999:hover .raz {
+    position: relative;
+    left: 2.5%;
+}
+
+.row999:hover .razmer3 {
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.row999:hover .row4 {
+    position: relative;
+    padding-left: 5%;
+}
+
+.row999:hover .row15 {
+    position: relative;
+    padding-left: 5%;
+}
+
+.razmer33 {
+    position: relative;
+    left: 7%;
+}
+
+
+
+.magazin1145 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.row20 , .row30 , .row40 , .row50 {
+    padding-top: 7%;
+}
+
+.row30 {
+    position: relative;
+    padding-top: 43%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -1059,7 +1204,7 @@ body {
 
 .magazin h2 {
     font-size: 18px;
-    color: #414141;
+    color: #414141; 
     padding: 20px 15px 15px 40px;
     font-weight: 900;
     margin-top: 50px;
