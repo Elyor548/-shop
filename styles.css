@@ -663,13 +663,9 @@ body {
 
 
 .row20 , .row30 , .row40 , .row50 {
-    padding-top: 7%;
+    padding-top: 50px;
 }
 
-.row30 {
-    position: relative;
-    padding-top: 43%;
-}
 
 
 

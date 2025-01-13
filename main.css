@@ -1,0 +1,297 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1;
+    background: none;
+    color: inherit;
+}
+
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, textarea, button, select, option {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    padding: 0;
+    margin: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+pre, code {
+    font-family: monospace;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #ccc;
+}
+
+blockquote, figure {
+    margin: 0;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Roboto", serif;
+    height: 1400px;
+    background-color: #ffffff;
+}
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100%; /* За пределами экрана */
+    width: 70%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: left 0.3s ease-in-out;
+    z-index: 100;
+  }
+  .menu-active {
+    left: 0; /* Выезжает на экран */
+}
+
+/* Логотип внутри меню */
+.menu-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Отступы сверху и снизу */
+    border-bottom: 1px solid #ccc; /* Разделительная линия */
+    z-index: 100;
+
+}
+
+.menu-logo img {
+    width: 100px; /* Ширина твоего логотипа */
+    height: auto;
+    z-index: 1000;
+
+}
+
+
+#menuli {
+    padding: 7px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+
+
+@media (min-width: 320px ) and (max-width: 480px) {
+    
+    .magazin768 , .magazin2768 , .foter768 , .navbig ,.nav5 ,.nav55  , .reklama1140px , .magaz1140  ,.magazin1140    {
+        display: none; 
+    }
+    
+    .reklama992 {
+        display: none;
+    }
+    .navigav992 {
+        display: none;
+    }
+    .nava {
+        display: none;
+    }
+    .navi {
+        display: none;
+    }
+    .nav22 {
+        display: none;
+    }
+    .nav-bar {
+        padding-top: 20px;
+    }
+    
+    .menu {
+        width: 30px;
+        height: 25px;
+        z-index: 1000;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav1 {
+        display: flex;
+        justify-content: space-between;
+        width: 92px;
+        height: auto;
+    }
+    
+    .dostavka {
+        display: none;
+    }
+    
+    
+    .search-container {
+        border: 1.5px solid rgba(230, 230, 230, 1);
+        background-color: #f9f9f9;
+        width: auto;
+        height: 40px;
+        margin: 15px 17px 0px 17px;
+    
+    
+    
+    }
+    
+    /* Поле ввода */
+    .search-container input {
+        border: none;
+        outline: none;
+        font-size: 16px;
+        color: #333;
+        width: auto;
+        height: 40px;
+        justify-content: center;
+        padding-left: 15px;
+        
+    }
+
+
+    .tovar {
+        width: auto;
+        color:  rgba(150, 150, 150, 1);
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .divan-yellow {
+        display: flex;
+        justify-content: center;
+    }
+    .divan-yellow img {
+        width: 290px;
+        height: 190px;
+    }
+
+    .kartochka-divan {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px; /* Расстояние между карточками */
+        padding: 20px;
+        background-color: #f9f9f9;
+      }
+  
+      /* Карточки (изображения) */
+      .box-shadow-divan {
+        width: 150px; /* Увеличенный размер для наглядности */
+        height: 100px;
+        object-fit: cover; /* Подгоняем изображение в рамки */
+        transition: box-shadow 0.3s ease; /* Плавный переход только для тени */
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Исходная легкая тень */
+        border-radius: 8px; /* Добавляем закругленные углы */
+      }
+  
+      /* Эффект при наведении */
+      .box-shadow-divan:hover {
+        box-shadow: 
+          0 15px 30px rgba(0, 0, 0, 1), /* Глубокая тень при наведении */
+          0 25px 50px rgba(0, 0, 0, 5); /* Дополнительная размытая тень */
+        transform: scale(1.02); /* Немного увеличиваем тень для большей выразительности */
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
