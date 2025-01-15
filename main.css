@@ -274,6 +274,289 @@ body {
 
 
 
+        /* Стили для карточки товара */
+        .star-rating {
+            display: flex;
+            flex-direction: row-reverse;
+            /* Чтобы последняя звезда была первой */
+            justify-content: start;
+            padding-left: 6.5%;
+            padding-top: 5%;
+        }
+
+        .star-rating input {
+            display: none;
+            /* Скрываем радиокнопки */
+        }
+
+        .star-rating label {
+            width: 7.93px;
+            /* Размер звезды */
+            height: 7.57px;
+            background: url('./kartochka/Vector.png') no-repeat center;
+            /* Используем ваш файл */
+            background-size: contain;
+            opacity: 0.5;
+            /* Прозрачность звезды в неактивном состоянии */
+        }
+
+        .star-rating input:checked~label,
+        .star-rating label:hover,
+        .star-rating label:hover~label {
+            opacity: 1;
+
+
+            /* Подсвечиваем звезды */
+        }
+
+
+
+    .nazvanie-sofa {
+        width: auto;
+        font-size: 16px; 
+        font-weight: 500;
+        line-height: 18.75px;
+        color:rgba(65, 65, 65, 1);
+        padding-left: 6%;
+        padding-top: 3%;
+        
+    }
+
+
+.sofa {
+    color: rgba(104, 104, 104, 1);
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10.55px;
+    padding-left: 6%;
+    padding-top: 1%;
+    
+}
+
+
+
+
+
+
+
+
+.prodaja {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+    padding-left: 14px;
+}
+
+
+.summa {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.kupit1 {
+    background-color:rgba(36, 84, 98, 1) ;
+    width: 100px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.kupit2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+}
+
+.heart {
+    width: 15.17px;
+    height: 13px;
+}
+
+.harakteristika {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5.5%;
+    padding-top: 5%;
+
+}
+
+.svet {
+    color: rgba(65, 65, 65, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+}
+
+.kol {
+    color: rgba(65, 65, 65, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+}
+
+
+.harakteristika2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5.5%;
+    padding-top: 5%;
+}
+
+.simvol {
+    transform: rotate(-90deg);
+font-size: 15px;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.svet3{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.svet2 {
+    background-color: rgba(255, 193, 7, 1);
+    width: 30px;
+    height: 30px;
+}
+
+
+.kol2 {
+    background-color:rgba(255, 255, 255, 1);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 
+    0 30px 60px rgba(255, 255, 255, 0.8), 
+    0 5px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.kol3 {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.razmerD {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    color: rgba(65, 65, 65, 1);
+    padding-left: 5.5%;
+    padding-top: 5%;
+}
+
+.diameter2 {
+    color: rgba(65, 65, 65, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.diameter {
+    box-shadow: 
+    0 30px 60px rgba(255, 255, 255, 0.8), 
+    0 5px 10px rgba(0, 0, 0, 0.1); 
+    width: 180px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 5.5%;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.diameter3 {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.opis {
+    padding-left: 5.5%;
+    padding-top: 5%;
+}
+
+
+
+
+.opisanie {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    color: rgba(65, 65, 65, 1);
+}
+
+.big-opisanie {
+    font-size: 12px;
+    line-height: 17.84px;
+    font-weight: 400;
+    color: rgba(104, 104, 104, 1);
+    padding-left: 5.5%;
+    padding-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
