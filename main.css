@@ -280,7 +280,7 @@ body {
             flex-direction: row-reverse;
             /* Чтобы последняя звезда была первой */
             justify-content: start;
-            padding-left: 6.5%;
+            padding-left: 29px;
             padding-top: 5%;
         }
 
@@ -317,7 +317,7 @@ body {
         font-weight: 500;
         line-height: 18.75px;
         color:rgba(65, 65, 65, 1);
-        padding-left: 6%;
+        padding-left: 27px;
         padding-top: 3%;
         
     }
@@ -328,7 +328,7 @@ body {
     font-size: 9px;
     font-weight: 400;
     line-height: 10.55px;
-    padding-left: 6%;
+    margin-left: 28px;
     padding-top: 1%;
     
 }
@@ -343,11 +343,15 @@ body {
 .prodaja {
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    width: 200px;
     align-items: center;
-    padding-left: 14px;
+    margin-left: 17px;
 }
 
+.serdce {
+    width: 15.17px;
+    height: 13px;
+}
 
 .summa {
     font-weight: 500;
@@ -372,16 +376,12 @@ body {
     line-height: 14.06px;
 }
 
-.heart {
-    width: 15.17px;
-    height: 13px;
-}
 
 .harakteristika {
     width: 50%;
     display: flex;
     justify-content: space-between;
-    padding-left: 5.5%;
+    padding-left: 28px;
     padding-top: 5%;
 
 }
@@ -405,13 +405,13 @@ body {
     width: 50%;
     display: flex;
     justify-content: space-between;
-    padding-left: 5.5%;
+    padding-left: 28px;
     padding-top: 5%;
 }
 
 .simvol {
     transform: rotate(-90deg);
-font-size: 15px;
+    font-size: 15px;
     color: rgba(0, 0, 0, 1);
 
 }
@@ -460,7 +460,7 @@ font-size: 15px;
     font-weight: 400;
     line-height: 14.06px;
     color: rgba(65, 65, 65, 1);
-    padding-left: 5.5%;
+    padding-left: 28px;
     padding-top: 5%;
 }
 
@@ -475,23 +475,30 @@ font-size: 15px;
     box-shadow: 
     0 30px 60px rgba(255, 255, 255, 0.8), 
     0 5px 10px rgba(0, 0, 0, 0.1); 
-    width: 180px;
+    width: 187px;
     height: 30px;
     display: flex;
     align-items: center;
-    margin-left: 5.5%;
+    margin-left: 28px;
     margin-top: 3%;
     justify-content: center;
+    margin-right: 10px;
+}
+
+.simvoll {
+    transform: rotate(-90deg);
+    font-size: 15px;
+    color: rgba(0, 0, 0, 1);
 }
 
 .diameter3 {
     display: flex;
-    justify-content: space-between;
-    width: 220px;
+    justify-content: space-around;
+    width: 250px;
 }
 
 .opis {
-    padding-left: 5.5%;
+    padding-left: 28px;
     padding-top: 5%;
 }
 
@@ -510,14 +517,18 @@ font-size: 15px;
     line-height: 17.84px;
     font-weight: 400;
     color: rgba(104, 104, 104, 1);
-    padding-left: 5.5%;
+    padding-left: 28px;
     padding-top: 2%;
-    padding-right: 4%;
+    width: 85%;
+    height: 168px;
+    
 }
 
 .xarakteristika {
     display: flex;
     justify-content: space-around;
+    padding-left: 20px;
+    width: 90%;
 }
 
 
@@ -526,8 +537,8 @@ font-size: 15px;
     font-weight: 400;
     line-height: 14.06px;
     color: rgba(65, 65, 65, 1);
-    padding-left: 3%;
     padding-top: 14px;
+
 }
 
 
@@ -580,6 +591,8 @@ font-size: 15px;
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
+    width: 288px;
+    padding-left: 28px;
 }
 
 
