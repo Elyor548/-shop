@@ -1017,7 +1017,6 @@ body {
 @media (min-width:  480px ) and (max-width: 767px) {
     body {
         height: 1200px;
-        font-family: RoboTo;
     }
 
     .magazin768 , .magazin2768 , .foter768 , .navbig  ,.nav5 ,.nav55  , .reklama1140px , .magaz1140  ,.magazin1140  {

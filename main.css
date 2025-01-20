@@ -152,11 +152,12 @@ body {
 
 @media (min-width: 320px ) and (max-width: 480px) {
     
-    .magazin768 , .magazin2768 , .foter768 , .navbig ,.nav5 ,.nav55  , .reklama1140px , .magaz1140  ,.magazin1140    {
-        display: none; 
+    .magazin768 , .magazin2768 , .foter768 , .navbig ,.nav5 ,.nav55  , .reklama1140px , .magaz1140  ,.magazin1140 , .od-in {
+        display: none;
     }
+ 
     
-    .reklama992 {
+    .reklama992 , .serdce768 , .fid768 , .opisanie ,  .magazin768 , .foter768 {
         display: none;
     }
     .navigav992 {
@@ -734,6 +735,544 @@ body {
 
 
 
+}
+
+
+
+
+
+@media (min-width:  480px ) and (max-width: 767px) {
+
+
+
+    .magazin768 , .magazin2768 , .foter768 , .navbig  ,.nav5 ,.nav55  , .reklama1140px , .magaz1140  ,.magazin1140 , .od-in , .divan-yellow1 , .kartochka-divan1   {
+        display: none;
+    }
+
+    .reklama992 , .serdce768 , .fid768 , .opisanie  , .magazin768 , .foter768 {
+        display: none;
+    }
+
+    .navigav992 {
+        display: none;
+    }
+
+    .nava {
+        display: none;
+    }
+
+    .navi {
+        display: none;
+    }
+    .nav22 {
+        display: none;
+    }
+
+    .nav-bar {
+        padding-top: 20px;
+    }
+    
+    .menu {
+        width: 30px;
+        height: 25px;
+    }
+
+
+    .dostavka {
+        display: block; 
+        padding-top: 5%;
+
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav1 {
+        display: flex;
+        justify-content: space-around;
+        width: 250px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    
+    .search-container {
+        border: 1.5px solid rgba(230, 230, 230, 1);
+        background-color: #f9f9f9;
+        width: auto;
+        height: 40px;
+        margin: 15px 17px 0px 17px;
+    
+    
+    
+    }
+    
+    /* Поле ввода */
+    .search-container input {
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: #333;
+        width: auto;
+        height: 40px;
+        justify-content: center;
+        padding-left: 15px;
+        
+    }
+
+
+    
+.navigav {
+    display: flex;
+    justify-content: center; 
+    padding-top: 22px;
+}
+
+.navigavM {
+    margin: 0px 20px 0px 20px;
+}
+
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100%; /* За пределами экрана */
+    width: 70%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: left 0.3s ease-in-out;
+    z-index: 100;
+}
+
+/* Меню открыто */
+.menu-active {
+    left: 0; /* Выезжает на экран */
+}
+
+/* Логотип внутри меню */
+.menu-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Отступы сверху и снизу */
+    border-bottom: 1px solid #ccc; /* Разделительная линия */
+    z-index: 100;
+
+}
+
+.menu-logo img {
+    width: 100px; /* Ширина твоего логотипа */
+    height: auto;
+    z-index: 1000;
+
+}
+
+
+#menuli {
+    padding: 7px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+
+.tovar {
+    width: auto;
+    color:  rgba(150, 150, 150, 1);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.divan-yellow {
+    display: flex;
+    justify-content: center;
+}
+.divan-yellow img {
+    width: 290px;
+    height: 190px;
+}
+
+.kartochka-divan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px; /* Расстояние между карточками */
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+  /* Карточки (изображения) */
+  .box-shadow-divan {
+    width: 150px; /* Увеличенный размер для наглядности */
+    height: 100px;
+    object-fit: cover; /* Подгоняем изображение в рамки */
+    transition: box-shadow 0.3s ease; /* Плавный переход только для тени */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Исходная легкая тень */
+    border-radius: 8px; /* Добавляем закругленные углы */
+  }
+
+  /* Эффект при наведении */
+  .box-shadow-divan:hover {
+    box-shadow: 
+      0 15px 30px rgba(0, 0, 0, 1), /* Глубокая тень при наведении */
+      0 25px 50px rgba(0, 0, 0, 5); /* Дополнительная размытая тень */
+    transform: scale(1.02); /* Немного увеличиваем тень для большей выразительности */
+  }
+
+
+
+
+
+
+
+
+
+
+    /* Стили для карточки товара */
+    .star-rating {
+        display: flex;
+        flex-direction: row-reverse;
+        /* Чтобы последняя звезда была первой */
+        justify-content: start;
+        padding-left: 29px;
+        padding-top: 5%;
+    }
+
+    .star-rating input {
+        display: none;
+        /* Скрываем радиокнопки */
+    }
+
+    .star-rating label {
+        width: 9px;
+        /* Размер звезды */
+        height: 8px;
+        background: url('./kartochka/Vector.png') no-repeat center;
+        /* Используем ваш файл */
+        background-size: contain;
+        opacity: 0.5;
+        /* Прозрачность звезды в неактивном состоянии */
+    }
+
+    .star-rating input:checked~label,
+    .star-rating label:hover,
+    .star-rating label:hover~label {
+        opacity: 1;
+
+
+        /* Подсвечиваем звезды */
+    }
+
+
+
+.nazvanie-sofa {
+    width: auto;
+    font-size: 17px; 
+    font-weight: 500;
+    line-height: 18.75px;
+    color:rgba(65, 65, 65, 1);
+    padding-left: 27px;
+    padding-top: 3%;
+    
+}
+
+
+.sofa {
+color: rgba(104, 104, 104, 1);
+font-size: 12px;
+font-weight: 400;
+line-height: 10.55px;
+margin-left: 28px;
+padding-top: 1%;
+
+}
+
+
+
+
+
+
+
+
+.prodaja {
+display: flex;
+justify-content: space-around;
+width: 250px;
+align-items: center;
+margin-left: 23px;
+}
+
+.serdce {
+width: 15.17px;
+height: 13px;
+}
+
+.summa {
+font-weight: 500;
+font-size: 17px;
+line-height: 18.75px;
+}
+
+.kupit1 {
+background-color:rgba(36, 84, 98, 1) ;
+width: 100px;
+height: 32px;
+display: flex;
+justify-content: center;
+
+
+}
+
+.kupit2 {
+color: rgba(255, 255, 255, 1);
+font-size: 14px;
+font-weight: 400;
+line-height: 14.06px;
+}
+
+
+.harakteristika {
+width: 40%;
+display: flex;
+justify-content: space-between;
+padding-left: 28px;
+padding-top: 5%;
+
+}
+
+.svet {
+color: rgba(65, 65, 65, 1);
+font-size: 14px;
+font-weight: 400;
+line-height: 14.06px;
+}
+
+.kol {
+color: rgba(65, 65, 65, 1);
+font-size: 14px;
+font-weight: 400;
+line-height: 14.06px;
+}
+
+
+.harakteristika2 {
+width: 40%;
+display: flex;
+justify-content: space-between;
+padding-left: 28px;
+padding-top: 5%;
+}
+
+.simvol {
+transform: rotate(-90deg);
+font-size: 15px;
+color: rgba(0, 0, 0, 1);
+
+}
+
+.svet3{
+width: 60px;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+
+
+
+.svet2 {
+background-color: rgba(255, 193, 7, 1);
+width: 30px;
+height: 30px;
+}
+
+
+.kol2 {
+background-color:rgba(255, 255, 255, 1);
+width: 30px;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 
+0 30px 60px rgba(255, 255, 255, 0.8), 
+0 5px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.kol3 {
+width: 60px;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+.razmerD {
+font-size: 14px;
+font-weight: 400;
+line-height: 14.06px;
+color: rgba(65, 65, 65, 1);
+padding-left: 28px;
+padding-top: 5%;
+}
+
+.diameter2 {
+color: rgba(65, 65, 65, 1);
+font-weight: 400;
+font-size: 14px;
+line-height: 16.41px;
+}
+
+.diameter {
+box-shadow: 
+0 30px 60px rgba(255, 255, 255, 0.8), 
+0 5px 10px rgba(0, 0, 0, 0.1); 
+width: 187px;
+height: 30px;
+display: flex;
+align-items: center;
+margin-left: 28px;
+margin-top: 3%;
+justify-content: center;
+margin-right: 10px;
+}
+
+.simvoll {
+transform: rotate(-90deg);
+font-size: 15px;
+color: rgba(0, 0, 0, 1);
+}
+
+.diameter3 {
+display: flex;
+justify-content: space-around;
+width: 250px;
+}
+
+.opis {
+padding-left: 28px;
+padding-top: 5%;
+}
+
+
+
+
+.opisanie {
+font-size: 14px;
+font-weight: 400;
+line-height: 14.06px;
+color: rgba(65, 65, 65, 1);
+}
+
+.big-opisanie {
+font-size: 14px;
+line-height: 17.84px;
+font-weight: 400;
+color: rgba(104, 104, 104, 1);
+padding-left: 28px;
+padding-top: 2%;
+width: 85%;
+height: 168px;
+
+}
+
+.xarakteristika {
+display: flex;
+justify-content: space-around;
+padding-left: 20px;
+width: 90%;
+}
+
+
+.xar {
+font-size: 14px;
+font-weight: 400;
+line-height: 14.06px;
+color: rgba(65, 65, 65, 1);
+padding-top: 14px;
+
+}
+
+
+#cherta {
+width: 107px;
+height: 3px;
+background-color:rgba(36, 84, 98, 1) ;
+display: flex;
+align-items: flex-end;
+margin-top: 7px;
+margin-left: 2%;
+}
+
+
+
+.raz1 {
+width: 288px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.xar-raz {
+font-size: 14px;
+font-weight: 400;
+line-height: 14.06px;
+color: rgba(104, 104, 104, 1);
+}
+
+.tochki {
+flex-grow: 1;
+border-bottom: 1px dotted rgba(104, 104, 104, 1);
+margin: 0 3px;
+padding-top: 7px;
+}
+
+
+.otvet {
+font-size: 14px;
+font-weight: 400;
+line-height: 15.68px;
+color: rgba(104, 104, 104, 1);
+}
+
+
+
+
+.aaa {
+display: flex;
+padding-top: 15px;
+width: auto;
+justify-content: center;
+}
+
+
+
+.ppp {
+height: 32px;
+padding-top: 10px;
+}
+
+.ppp2 {
+width: 96px;
+height: 48px;
+padding-top: 10px;
+}
+
+
+
+.ppp3 {
+width: 76px;
+height: 32px;
+padding-top: 10px;
+}
 
 
 
@@ -745,18 +1284,756 @@ body {
 
 
 
+.magazin1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.stul {
+    width: 30%;
+    height: auto;
+    margin-left: 10%;
+
+}
+.heart {
+    position: relative;
+    left: 66%;
+    
+}
+
+.divan {
+    width: 30%;
+    height: auto;
+    margin-left: 10%;
+}
+
+
+.stilPrice1 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #414141;
+}
+
+.stilPrice2 {
+    font-size: 13px;
+    margin-top: 5px;
+
+}
+
+.stilPrice3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+
+} 
+
+.stilPrice4 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.stilPrice6 {
+    display: flex;
+}
+
+.stilPrice5 {
+ font-size: 12px;
+ color:#CCCCCC;
+ text-decoration: line-through;
+ padding-left: 7px;
+ margin-top: 5px;
+}
+
+
+
+.stol {
+    width: 30%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.shkaf {
+    width: 30%;
+    height: auto;
+    margin-left: 3%;
+
+}
+
+
+.magazin11 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.stilPrice12 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.stilPrice13 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+}
+
+
+
+@media (min-width:  768px ) and (max-width: 1139px) { 
+
+
+    .stul , .stol , .shkaf , .navbig  ,.nav5 , .nav55 , .reklama1140px , .magaz1140 ,.magazin1140 , .tovar , .divan-yellow , .kartochka-divan  {
+        display: none;
+    }
+    .divan , .serdce , .harakteristika , .harakteristika2 , .kol3  , .razmerD , .diameter3 {
+        display: none;
+    }
+    .reklama {
+        display: none;
+    }
+    .search-container {
+            display: none;
+        }
+    .nav {
+        display: none;
+    }
+    .magazin1 {
+        display: none;
+    }
+    
+    .navigav {
+        display: none;
+    }
+    
+    .menu {
+        width: 30px;
+        height: 25px;
+    }
+    .nava {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        padding-top: 30px;
+    }
+    
+    .navas{
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+    }
+    
+    .nav3 {
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+    }
+    
+    .search-containera {
+        border: 1.5px solid rgba(230, 230, 230, 1);
+        background-color: #f9f9f9;
+        width: auto;
+        height: 40px;
+        width: 40%;
+    
+    
+    
+    
+    }
+    
+    /* Поле ввода */
+    .search-containera input {
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: #333;
+        width: auto;
+        height: 40px;
+        justify-content: center;
+        padding-left: 15px;
+        
+    }
+    
+    
+    
+    .navigav992{
+        margin: 20px 0 20px 0;
+        padding: 20px 0px 20px 0px;
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 
+        0 30px 60px rgba(255, 255, 255, 0.8), /* Яркая белая тень */
+        0 5px 10px rgba(0, 0, 0, 0.1); /* Лёгкая дополнительная тень */}
+    
+    
+    .tovarr {
+        width: auto;
+        color:  rgba(150, 150, 150, 1);
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+
+
+    .divan-yellow1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .kartochka-divan1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px; /* Расстояние между карточками */
+        padding: 20px;
+        background-color: #f9f9f9;
+      }
+    
+      /* Карточки (изображения) */
+      .box-shadow-divan {
+        width: 150px; /* Увеличенный размер для наглядности */
+        height: 100px;
+        object-fit: cover; /* Подгоняем изображение в рамки */
+        transition: box-shadow 0.3s ease; /* Плавный переход только для тени */
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Исходная легкая тень */
+        border-radius: 8px; /* Добавляем закругленные углы */
+      }
+    
+      /* Эффект при наведении */
+      .box-shadow-divan:hover {
+        box-shadow: 
+          0 15px 30px rgba(0, 0, 0, 1), /* Глубокая тень при наведении */
+          0 25px 50px rgba(0, 0, 0, 5); /* Дополнительная размытая тень */
+        transform: scale(1.02); /* Немного увеличиваем тень для большей выразительности */
+      }
+    
+    
 
 
 
 
 
+    /* Стили для карточки товара */
+    .star-rating {
+        display: flex;
+        flex-direction: row-reverse;
+        /* Чтобы последняя звезда была первой */
+        justify-content: start;
+        padding-left: 29px;
+        padding-top: 3%;
+    }
+
+    .star-rating input {
+        display: none;
+        /* Скрываем радиокнопки */
+    }
+
+    .star-rating label {
+        width: 15px;
+        /* Размер звезды */
+        height: 14.32px;
+        background: url('./kartochka/Vector.png') no-repeat center;
+        /* Используем ваш файл */
+        background-size: contain;
+        opacity: 0.5;
+        /* Прозрачность звезды в неактивном состоянии */
+    }
+
+    .star-rating input:checked~label,
+    .star-rating label:hover,
+    .star-rating label:hover~label {
+        opacity: 1;
+
+
+        /* Подсвечиваем звезды */
+    }
+
+
+    .nazvanie-sofa {
+        width: auto;
+        font-size: 28px; 
+        font-weight: 500;
+        line-height: 32.81px;
+        color:rgba(65, 65, 65, 1);
+        padding-left: 27px;
+        padding-top: 3%;
+        
+    }
+    
+    
+    .sofa {
+    color: rgba(104, 104, 104, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    margin-left: 28px;
+    padding-top: 1%;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .prodaja {
+    display: flex;
+    justify-content: space-around;
+    width: 438px;
+    align-items: center;
+    }
+    
+    .serdce {
+    width: 15.17px;
+    height: 13px;
+    }
+    
+    .summa {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 18.75px;
+    }
+    
+    .kupit1 {
+    background-color:rgba(36, 84, 98, 1) ;
+    width: 100px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    
+    
+    }
+    
+    .kupit2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14.06px;
+    }
+    
+
+
+    .serdce1 {
+        width: 17.5px;
+        height: 15px;
+    }
+
+    .serdce768 {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .dobav-jel {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.06px;
+        color: rgba(65, 65, 65, 1);
+    }
+
+
+    .fid768 {
+        width: 450px;
+        height: 99px;
+    }
+
+    .xarakteristiki2 {
+        display: flex;
+        justify-content: space-around;
+        color: rgba(65, 65, 65, 1);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.06px;
+        padding-top: 20px;
+    }
+
+
+    .xarakteristiki3 {
+        display: flex;
+        justify-content: space-around;
+    }
 
 
 
 
 
+    .svet2 {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(255, 193, 7, 1);
+        
+    }
+
+    .kol2 {
+        background-color:rgba(255, 255, 255, 1);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 
+        0 30px 60px rgba(255, 255, 255, 0.8), 
+        0 5px 10px rgba(0, 0, 0, 0.1); 
+    }
 
 
+    .diameter5 {
+        box-shadow: 
+        0 30px 60px rgba(255, 255, 255, 0.8), 
+        0 5px 10px rgba(0, 0, 0, 0.1); 
+        width: 187px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        margin-left: 28px;
+        justify-content: center;
+        }
+
+    .simvol {
+        transform: rotate(-90deg);
+        font-size: 15px;
+        color: rgba(0, 0, 0, 1);
+        position: relative;
+        left: 20px;
+
+    }
+        
+    .simvoll {
+        transform: rotate(-90deg);
+        font-size: 15px;
+        color: rgba(0, 0, 0, 1);
+        position: relative;
+        left: 20px;
+    }
+
+    .svet4 {
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
+
+    }
+
+
+    .kol5 {
+        display: flex;
+        justify-content: space-around;
+        height: 30px;
+        padding-left: 70px;
+
+
+    }
+
+    .diameter4 {
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
+        width: 203px;
+        padding-left: 40px;
+    }
+
+    .xarakteristiki3 {
+        padding-top: 20px;
+        padding-left: 25px;
+    }
+
+    .diameter6 {
+        width: 187px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .opis {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.06px;
+        color: rgba(65, 65, 65, 1);
+        padding-left: 25px;
+        padding-top: 15px;
+    }
+
+    .big-opisanie {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.84px;
+        color: rgba(104, 104, 104, 1);
+        width: 95%;
+        padding-left: 25px;
+        padding-top: 10px;
+    }
+
+    .xarakteristika {
+        display: flex;
+        justify-content: start;
+        padding-left: 25px;
+        padding-top: 20px;
+        gap: 40px;
+        color: rgba(65, 65, 65, 1);
+    }
+
+    #cherta {
+        width: 119.38px;
+        height: 3px;
+        background-color:rgba(36, 84, 98, 1) ;
+        display: flex;
+        align-items: flex-end;
+        margin-top: 7px;
+        margin-left: 2%;
+    }
+        
+        
+
+
+    .raz1 {
+        width: 600px;
+        display: flex;
+        align-items: center;
+        
+        }
+        
+        .xar-raz {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+        color: rgba(104, 104, 104, 1);
+        }
+        
+        .tochki {
+        flex-grow: 1;
+        border-bottom: 1px dotted rgba(104, 104, 104, 1);
+        margin: 0 3px;
+        padding-top: 7px;
+        }
+        
+        
+        .otvet {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+        color: rgba(104, 104, 104, 1);
+        display: flex;
+        gap: 5px;
+        }
+        
+        
+        
+        
+        .aaa {
+        display: flex;
+        padding-top: 15px;
+        width: auto;
+        height: auto;
+        padding-left: 25px;
+        }
+        
+        
+        
+        .ppp {
+            display: flex;
+            height: 20px;
+            width: 220px;
+            gap: 7px;
+        }
+        
+        .ppp2 {
+            display: flex;
+            height: 16px;
+            width: 280px;
+        }
+        
+        
+        
+        .ppp3 {
+            display: flex;
+            height: 16px;
+            width: 280px;
+        }
+        
+        
+
+
+        .magazin h2 {
+            font-size: 18px;
+            color: #414141;
+            padding: 20px 15px 15px 20px;
+            font-weight: 900;
+        }
+        
+        
+        
+        .magazin768{
+            display: flex;
+            justify-content: end;
+            width: 100%;
+            padding-top: 5.5%;
+        }
+        
+        .divan768 {
+            width: 30%;
+            height: auto;
+        
+        }
+        .heart {
+            position: relative;
+            left: 66%;
+            
+        }
+        
+        
+        .price7681 {
+            width: auto;
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 10px;
+            color: #414141;
+        }
+        
+        .price7682 {
+            width: auto;
+            font-size: 13.5px;
+            margin-top: 5px;
+        
+        }
+        
+        .price7683 {
+            width: auto;
+            font-size: 14.5px;
+            font-weight: bold;
+            margin-top: 5px;
+        
+        } 
+        
+        
+        .magazin2768 {
+        
+            display: flex;
+            justify-content: end;
+            width: 100%;
+            padding-top: 7%;
+            padding-bottom: 10%;
+        }
+
+
+
+        .foter768 {
+            width: 100%;
+            height: 20%;
+            box-shadow: 
+            0 30px 60px rgba(255, 255, 255, 0.8), /* Яркая белая тень */
+            0 30px 50px rgba(0, 0, 0, 0.3); /* Более выраженная чёрная тень */
+        }
+        
+        
+        
+        .foterN {
+            width: 50%;
+            font-size: 17px;
+            font-weight: 900;
+            padding-left: 3%;
+            padding-top: 4%;
+        }
+        
+        
+        .nav-foter {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        
+        
+        .fot-li {
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 7%;
+        }
+        
+        
+        .fot {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .kontac {
+            width: 25%;
+            padding-right: 5%;
+        }
+        
+        .logo-fut {
+            display: flex;
+            justify-content: end;
+            padding: 0% 0% 10% 1%;
+            height: 60px;
+        
+        }
+        .lokated {
+            font-size: 15px;
+            font-weight: 500;
+        }
+        
+        
+        .the-end {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 3%;
+        }
+        
+        
+        .tel {
+            display: flex;
+            width: 25%;
+        }
+        
+        .insta {
+            display: flex;
+            width: 20%;
+        
+        }
+        
+        .email {
+            display: flex;
+            width: 25%;
+        
+        }
+        
+        .akcia {
+            display: flex;
+            justify-content: space-around;
+            width: 20%;
+        }
+        
+        
+        .img-fot {
+            margin: 0px 10px 0px 0px;
+        }
+        
+        
+        #red {
+            color: red;
+        }
+        
+        .men {
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            padding-left: 0;
+        }
 
 
 
@@ -764,3 +2041,58 @@ body {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
