@@ -794,6 +794,8 @@ body {
         display: flex;
         justify-content: space-around;
         width: 250px;
+        padding-right: 20px;
+        align-items: center;
     }
 
     .logo {
@@ -1280,15 +1282,21 @@ padding-top: 10px;
 
 
 
-
-
+.magazz {
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    padding-left: 55px;
+    padding-top: 20px;
+}
 
 
 
 
 .magazin1 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
     padding-top: 20px;
 }
@@ -1297,7 +1305,6 @@ padding-top: 10px;
 .stul {
     width: 30%;
     height: auto;
-    margin-left: 10%;
 
 }
 .heart {
@@ -1309,7 +1316,6 @@ padding-top: 10px;
 .divan {
     width: 30%;
     height: auto;
-    margin-left: 10%;
 }
 
 
@@ -1357,13 +1363,11 @@ padding-top: 10px;
 .stol {
     width: 30%;
     height: auto;
-    margin-left: 10%;
 }
 
 .shkaf {
     width: 30%;
     height: auto;
-    margin-left: 3%;
 
 }
 
@@ -1402,7 +1406,7 @@ padding-top: 10px;
     .divan , .serdce , .harakteristika , .harakteristika2 , .kol3  , .razmerD , .diameter3 {
         display: none;
     }
-    .reklama , .tell , .glaf , .ccc , .xarakteristikaa , .eee , .nav33  , .navaaa , .divan-yellow1{
+    .reklama , .tell , .glaf , .ccc , .xarakteristikaa , .eee , .nav33  , .navaaa , .divan-yellow1 , .navigav992boxx , .navigav9922 , .prodaja7{
         display: none;
     }
     .search-container {
@@ -1473,7 +1477,7 @@ padding-top: 10px;
     .navigav992box {
         display: flex;
         justify-content: center;
-        margin-right: 10%;
+
     } 
     
     
@@ -1498,11 +1502,11 @@ padding-top: 10px;
 
 
     .divan-yellow22 {
-        width: 100%;
+        width: auto;
         display: flex;
         justify-content: center;
-
     }
+
 
     .kartochka-divan1 {
         display: flex;
@@ -1880,7 +1884,7 @@ padding-top: 10px;
 
 
       
-.magaz  {
+.magazz  {
     font-size: 18px;
     padding: 20px 15px 15px 25px;
     font-weight: 900;
@@ -2060,14 +2064,14 @@ padding-top: 10px;
 
     .menu , .nav , .baner992 , .reklama , .stul , .stol , .shkaf ,
     .navigav ,  .search-container , .divan-yellow22
-      , .rek , .magazin , .magazin768 , .magazin2768 , .nav , .serdce , .tovar , .divan-yellow , .star-rating , section , .nav3 , .nava , .navad {
+      , .rek , .magazin , .magazin768 , .magazin2768 , .nav , .serdce , .tovar , .divan-yellow , .star-rating , section , .nav3 , .nava , .navad , .navigav992box , .navigav992 , .prodaja {
       display: none;
   }
 
   body {
     width: 90%;
     margin-left: 5%;
-    margin-right: 5%;
+
 }
 
   .navaaa {
@@ -2159,7 +2163,7 @@ padding-top: 10px;
 
 
 
-.navigav992box {
+.navigav992boxx {
     width:auto;
     padding-top: 2%;
     padding-bottom: 3.5%;
@@ -2167,7 +2171,7 @@ padding-top: 10px;
     margin-right: 1;
 }
 
-.navigav992{
+.navigav9922{
     width: auto;
     height: 70px;
     display: flex;
@@ -2195,7 +2199,7 @@ padding-top: 10px;
 
 .big-divan-1140 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 } 
 
 
@@ -2266,7 +2270,7 @@ padding-top: 10px;
 }
 
 
-.prodaja {
+.prodaja7 {
         display: flex;
         justify-content: space-between;
         width: 438px;
@@ -2277,7 +2281,7 @@ padding-top: 10px;
     
 
     
-    .summa {
+    .summa7 {
         width: 90px;
         height: 33px;
         font-weight: 500;
@@ -2285,7 +2289,7 @@ padding-top: 10px;
         line-height: 32.81px;
     }
     
-    .kupit1 {
+    .kupit17 {
     background-color:rgba(36, 84, 98, 1) ;
     width: 143px;
     height: 40px;
@@ -2295,7 +2299,7 @@ padding-top: 10px;
     
     }
     
-    .kupit2 {
+    .kupit27 {
     color: rgba(255, 255, 255, 1);
     font-size: 14px;
     font-weight: 400;
@@ -2304,23 +2308,28 @@ padding-top: 10px;
     
 
 
-    .serdce1 {
+    .serdce18 {
         width: 17.5px;
         height: 15px;
     }
 
-    .serdce768 {
+    .serdce7687 {
         display: flex;
-        width: 154px;
+        width: 200px;
         height: 15px;
         justify-content: space-around;
         gap: 3px;
+        padding-left: 7px;
+    }
+
+    .ccc {
+        width: 550px;
     }
 
 
 
-    .dobav-jel {
-        width: 130px;
+    .dobav-jell {
+        width: 110px;
         height: 14px;
         font-size: 12px;
         font-weight: 400;
