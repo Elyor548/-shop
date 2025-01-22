@@ -157,7 +157,7 @@ body {
     }
  
     
-    .reklama992 , .serdce768 , .fid768 , .opisanie ,  .magazin768 , .foter768 {
+    .reklama992 , .serdce768 , .fid768  ,  .magazin768 , .foter768 {
         display: none;
     }
     .navigav992 {
@@ -207,6 +207,7 @@ body {
     
     
     
+    
     }
     
     /* Поле ввода */
@@ -219,6 +220,7 @@ body {
         height: 40px;
         justify-content: center;
         padding-left: 15px;
+        
         
     }
 
@@ -749,7 +751,7 @@ body {
         display: none;
     }
 
-    .reklama992 , .serdce768 , .fid768 , .opisanie  , .magazin768 , .foter768 {
+    .reklama992 , .serdce768 , .fid768   , .magazin768 , .foter768 {
         display: none;
     }
 
@@ -1037,7 +1039,7 @@ line-height: 14.06px;
 
 
 .harakteristika {
-width: 40%;
+width: 35%;
 display: flex;
 justify-content: space-between;
 padding-left: 28px;
@@ -1061,7 +1063,7 @@ line-height: 14.06px;
 
 
 .harakteristika2 {
-width: 40%;
+width: 35%;
 display: flex;
 justify-content: space-between;
 padding-left: 28px;
@@ -1400,7 +1402,7 @@ padding-top: 10px;
     .divan , .serdce , .harakteristika , .harakteristika2 , .kol3  , .razmerD , .diameter3 {
         display: none;
     }
-    .reklama {
+    .reklama , .tell , .glaf , .ccc , .xarakteristikaa , .eee , .nav33  , .navaaa , .divan-yellow1{
         display: none;
     }
     .search-container {
@@ -1421,7 +1423,8 @@ padding-top: 10px;
         width: 30px;
         height: 25px;
     }
-    .nava {
+    .navad {
+        width: 90%;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -1432,13 +1435,15 @@ padding-top: 10px;
     .navas{
         display: flex;
         justify-content: space-around;
-        width: 25%;
+        width: 20%;
     }
     
-    .nav3 {
+    .nav30 {
         display: flex;
-        width: 30%;
         justify-content: space-around;
+        width:30%;
+        padding-left: 2%;
+
     }
     
     .search-containera {
@@ -1465,11 +1470,16 @@ padding-top: 10px;
         padding-left: 15px;
         
     }
-    
+    .navigav992box {
+        display: flex;
+        justify-content: center;
+        margin-right: 10%;
+    } 
     
     
     .navigav992{
-        margin: 20px 0 20px 0;
+        width: 95%;
+        margin: 20px 20px 20px 20px;
         padding: 20px 0px 20px 0px;
         display: flex;
         justify-content: space-around;
@@ -1487,9 +1497,11 @@ padding-top: 10px;
 
 
 
-    .divan-yellow1 {
+    .divan-yellow22 {
+        width: 100%;
         display: flex;
         justify-content: center;
+
     }
 
     .kartochka-divan1 {
@@ -1568,7 +1580,7 @@ padding-top: 10px;
         line-height: 32.81px;
         color:rgba(65, 65, 65, 1);
         padding-left: 27px;
-        padding-top: 3%;
+        padding-top: 15px;
         
     }
     
@@ -1867,69 +1879,845 @@ padding-top: 10px;
         
 
 
-        .magazin h2 {
-            font-size: 18px;
-            color: #414141;
-            padding: 20px 15px 15px 20px;
-            font-weight: 900;
+      
+.magaz  {
+    font-size: 18px;
+    padding: 20px 15px 15px 25px;
+    font-weight: 900;
+    color: rgba(65, 65, 65, 1);
+}
+
+
+
+.magazin768{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 5.5%;
+}
+
+.divan768 {
+    width: 20%;
+    height: auto;
+
+}
+.heart {
+    position: relative;
+    left: 100%;
+    
+}
+
+
+.price7681 {
+    width: auto;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #414141;
+}
+
+.price7682 {
+    width: auto;
+    font-size: 13.5px;
+    margin-top: 5px;
+
+}
+
+.price7683 {
+    width: auto;
+    font-size: 14.5px;
+    font-weight: bold;
+    margin-top: 5px;
+
+} 
+
+
+.magazin2768 {
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+
+
+.foter768 {
+    width: 100%;
+    height: 20%;
+    box-shadow: 
+    0 30px 60px rgba(255, 255, 255, 0.8), /* Яркая белая тень */
+    0 30px 50px rgba(0, 0, 0, 0.3); /* Более выраженная чёрная тень */
+}
+
+
+
+.foterN {
+    width: 50%;
+    font-size: 17px;
+    font-weight: 900;
+    padding-left: 6%;
+    padding-top: 4%;
+}
+
+
+.nav-foter {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-left: 33px;
+}
+
+
+.fot-li {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 7%;
+}
+
+
+.fot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kontac {
+    width: 25%;
+    padding-right: 5%;
+}
+
+.logo-fut {
+    display: flex;
+    justify-content: end;
+    padding: 0% 0% 10% 1%;
+    height: 60px;
+
+}
+.lokated {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.the-end {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+
+.tel {
+    display: flex;
+    width: 25%;
+}
+
+.insta {
+    display: flex;
+    width: 20%;
+
+}
+
+.email {
+    display: flex;
+    width: 25%;
+
+}
+
+.akcia {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    padding-left: 50px;
+}
+
+
+.img-fot {
+    margin: 0px 10px 0px 0px;
+}
+
+
+#red {
+    color: red;
+}
+
+.men {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-left: 0;
+}
+
+
+
+
+
+}
+
+
+@media (min-width:  1140px ) {
+
+    .menu , .nav , .baner992 , .reklama , .stul , .stol , .shkaf ,
+    .navigav ,  .search-container , .divan-yellow22
+      , .rek , .magazin , .magazin768 , .magazin2768 , .nav , .serdce , .tovar , .divan-yellow , .star-rating , section , .nav3 , .nava , .navad {
+      display: none;
+  }
+
+  body {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+  .navaaa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+}
+
+.logo {
+    width: 112.96px;
+    height: 25px;
+}
+
+.nav33 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+}
+
+.search-containeraa {
+    border: 1.5px solid rgba(230, 230, 230, 1);
+    background-color: #f9f9f9;
+    width: auto;
+    height: 40px;
+    width: 30%;
+
+
+
+
+}
+
+.search-containeraa input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #333;
+    width: auto;
+    height: 40px;
+    justify-content: center;
+    
+}
+
+
+.dostavkaa {
+    width: 103px;
+    height: 17.37px;
+
+}
+
+
+
+
+.tell {
+    display: flex;
+    justify-content: center;
+    width: 139px;
+    height: 17px;
+    align-items: center;
+}
+
+
+.tel22 {
+   width: 105px;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 14.06px; 
+   color: rgba(65, 65, 65, 1);
+}
+
+.tel {
+    padding-right: 10px;
+}
+
+.glaf {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: rgba(65, 65, 65, 1);
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    align-items: center;
+}
+
+
+
+
+.navigav992box {
+    width:auto;
+    padding-top: 2%;
+    padding-bottom: 3.5%;
+    margin-left: 1%;
+    margin-right: 1;
+}
+
+.navigav992{
+    width: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 
+    0 30px 60px rgba(255, 255, 255, 0.8), 
+    0 5px 10px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+
+}
+
+.nav55 {
+    color: red;
+}
+
+
+.tovarr {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    color: rgba(150, 150, 150, 1);
+    padding-left: 25px;
+}
+
+.big-divan-1140 {
+    display: flex;
+    justify-content: space-around;
+} 
+
+
+
+
+
+.divan-yellow1 {
+    width: 653px;
+    height: 354px;
+}
+
+
+
+.star-ratingg {
+    display: flex;
+    flex-direction: row-reverse;
+    /* Чтобы последняя звезда была первой */
+    justify-content: start;
+    padding-top: 20px;
+}
+
+.star-ratingg input {
+    display: none;
+    /* Скрываем радиокнопки */
+}
+
+.star-ratingg label {
+    width: 15px;
+    /* Размер звезды */
+    height: 14.32px;
+    background: url('./kartochka/Vector.png') no-repeat center;
+    /* Используем ваш файл */
+    background-size: contain;
+    opacity: 0.5;
+    /* Прозрачность звезды в неактивном состоянии */
+}
+
+.star-ratingg input:checked~label,
+.star-ratingg label:hover,
+.star-ratingg label:hover~label {
+    opacity: 1;
+
+
+    /* Подсвечиваем звезды */
+}
+
+.nazvanie-sofaa {
+    width: 250px;
+    height: 33px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32.81px;
+    color: rgba(65, 65, 65, 1);
+}
+
+.sofao {
+    width: 54px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: rgba(104, 104, 104, 1);
+    padding-top: 5px;
+}
+
+.sofaa {
+    padding-top: 15px;
+}
+
+
+.prodaja {
+        display: flex;
+        justify-content: space-between;
+        width: 438px;
+        height: 40px;
+        align-items: center;
+        padding-top: 20px;
+    }
+    
+
+    
+    .summa {
+        width: 90px;
+        height: 33px;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 32.81px;
+    }
+    
+    .kupit1 {
+    background-color:rgba(36, 84, 98, 1) ;
+    width: 143px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    
+    
+    }
+    
+    .kupit2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.23px;
+    }
+    
+
+
+    .serdce1 {
+        width: 17.5px;
+        height: 15px;
+    }
+
+    .serdce768 {
+        display: flex;
+        width: 154px;
+        height: 15px;
+        justify-content: space-around;
+        gap: 3px;
+    }
+
+
+
+    .dobav-jel {
+        width: 130px;
+        height: 14px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.06px;
+    }
+
+
+
+
+
+
+
+    .fid768 {
+        width: 388px;
+        height: 99px;
+    }
+
+    .xarakteristiki2 {
+        display: flex;
+        justify-content: space-between;
+        color: rgba(65, 65, 65, 1);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.06px;
+        padding-top: 30px;
+        padding-left: 3px;
+    }
+
+
+    .xarakteristiki3 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+
+
+    .svet2 {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(255, 193, 7, 1);
+        
+    }
+
+    .kol2 {
+        background-color:rgba(255, 255, 255, 1);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 
+        0 30px 60px rgba(255, 255, 255, 0.8), 
+        0 5px 10px rgba(0, 0, 0, 0.1); 
+    }
+
+
+    .diameter5 {
+        box-shadow: 
+        0 30px 60px rgba(255, 255, 255, 0.8), 
+        0 5px 10px rgba(0, 0, 0, 0.1); 
+        width: 187px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        margin-left: 28px;
+        justify-content: center;
+        }
+
+    .simvol {
+        transform: rotate(-90deg);
+        font-size: 15px;
+        color: rgba(0, 0, 0, 1);
+        position: relative;
+        left: 20px;
+
+    }
+        
+    .simvoll {
+        transform: rotate(-90deg);
+        font-size: 15px;
+        color: rgba(0, 0, 0, 1);
+        position: relative;
+        left: 10px;
+    }
+
+    .svet4 {
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
+
+    }
+
+
+    .kol5 {
+        display: flex;
+        justify-content: space-around;
+        height: 30px;
+        padding-left: 100px;
+
+
+    }
+
+    .diameter4 {
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
+        width: 203px;
+        padding-left: 40px;
+    }
+
+    .xarakteristiki3 {
+        padding-top: 20px;
+    }
+
+    .diameter6 {
+        width: 187px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .opis {
+        width: 56px;
+        height: 14px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.06px;
+        color: rgba(65, 65, 65, 1);
+        padding-top: 10px;
+        
+    }
+
+
+    .big-opisanie {
+        width: 456px;
+        height: 90px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.84px;
+        color: rgba(104, 104, 104, 1);
+        padding-top: 20px;
+    }
+
+
+    .kartochka-divan1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px; /* Расстояние между карточками */
+        padding: 20px;
+        background-color: #f9f9f9;
+        width: 58%;
+      }
+    
+      /* Карточки (изображения) */
+      .box-shadow-divan {
+        width: 150px; /* Увеличенный размер для наглядности */
+        height: 100px;
+        object-fit: cover; /* Подгоняем изображение в рамки */
+        transition: box-shadow 0.3s ease; /* Плавный переход только для тени */
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Исходная легкая тень */
+        border-radius: 8px; /* Добавляем закругленные углы */
+      }
+    
+      /* Эффект при наведении */
+      .box-shadow-divan:hover {
+        box-shadow: 
+          0 15px 30px rgba(0, 0, 0, 1), /* Глубокая тень при наведении */
+          0 25px 50px rgba(0, 0, 0, 5); /* Дополнительная размытая тень */
+        transform: scale(1.02); /* Немного увеличиваем тень для большей выразительности */
+      }
+    
+    
+
+
+      .xarakteristikaa {
+        display: flex;
+        justify-content: start;
+        padding-left: 25px;
+        padding-top: 20px;
+        gap: 40px;
+        color: rgba(65, 65, 65, 1);
+    }
+
+    #chertaaa {
+        width: 122px;
+        height: 3px;
+        background-color:rgba(36, 84, 98, 1) ;
+        display: flex;
+        align-items: flex-end;
+        margin-top: 7px;
+        margin-left: 1%;
+    }
+        
+
+    .xaraa {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        color: rgba(65, 65, 65, 1);
+        padding-top: 14px;
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .raz11 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 600px;
+        
+        }
+        
+        .xar-raza {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+        color: rgba(104, 104, 104, 1);
+        }
+        
+        .tochkii {
+        flex-grow: 1;
+        border-bottom: 1px dotted rgba(104, 104, 104, 1);
+        margin: 0 3px;
+        padding-top: 7px;
+        }
+        
+        
+        .otvett {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+        color: rgba(104, 104, 104, 1);
+        display: flex;
+        gap: 5px;
         }
         
         
         
-        .magazin768{
+        
+        .aaaa {
+        display: flex;
+        padding-top: 15px;
+        width: auto;
+        height: auto;
+        padding-left: 25px;
+        }
+        
+        
+        
+        .pppp {
             display: flex;
-            justify-content: end;
-            width: 100%;
-            padding-top: 5.5%;
+            height: 20px;
+            width: 220px;
+            gap: 7px;
         }
         
-        .divan768 {
-            width: 30%;
-            height: auto;
-        
+        .pppp2 {
+            display: flex;
+            height: 16px;
+            width: 280px;
         }
+        
+        
+        
+        .pppp3 {
+            display: flex;
+            height: 16px;
+            width: 280px;
+        }
+        
+        
+
+        .cccc {
+            display: flex;
+            flex-direction: column;  
+         
+        }
+
+        .eee {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .magazin1140 {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 7%;
+        }
+        
+        
+        .magaz {
+            margin-top: 3%;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 18.75px;
+            color: rgba(65, 65, 65, 1);
+            padding-left: 25px;
+        }
+        
+         
         .heart {
             position: relative;
-            left: 66%;
-            
+            left: 110%;
+        }
+        
+        .row2 {
+            padding-top: 10%;
         }
         
         
-        .price7681 {
-            width: auto;
-            font-size: 15px;
-            font-weight: bold;
-            margin-top: 10px;
-            color: #414141;
+        
+        .row3 {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 18.75px;
+            padding: 2% 0  4% 0;
         }
         
-        .price7682 {
-            width: auto;
-            font-size: 13.5px;
+        .row4 {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 12.89px;
+            padding: 2% 0  4% 0;
+        }
+        
+        .row5 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 18.75px;
+        }
+        
+        
+        
+        
+        .row6 {
+            font-size: 14px;
+            color:#CCCCCC;
+            text-decoration: line-through;
+            padding-left: 7px;
             margin-top: 5px;
-        
-        }
-        
-        .price7683 {
-            width: auto;
-            font-size: 14.5px;
-            font-weight: bold;
-            margin-top: 5px;
-        
-        } 
+           }
         
         
-        .magazin2768 {
-        
+           .row7 {
             display: flex;
-            justify-content: end;
-            width: 100%;
-            padding-top: 7%;
-            padding-bottom: 10%;
-        }
-
-
-
+           }
+        
+        
+        
         .foter768 {
             width: 100%;
             height: 20%;
@@ -1938,13 +2726,22 @@ padding-top: 10px;
             0 30px 50px rgba(0, 0, 0, 0.3); /* Более выраженная чёрная тень */
         }
         
+        .foter768 {
+            position: relative;
+            left: -15%;
+            right: -10%;
+            width: calc(100% + 30%);
+            padding-left: 15%;
+            padding-right: 10%;
+            margin-top: 5%;
         
+        }
         
         .foterN {
             width: 50%;
             font-size: 17px;
             font-weight: 900;
-            padding-left: 3%;
+            padding-left: 2%;
             padding-top: 4%;
         }
         
@@ -1952,8 +2749,8 @@ padding-top: 10px;
         .nav-foter {
             width: 50%;
             display: flex;
-            justify-content: space-around;
-            padding: 10px;
+            justify-content: space-between;
+            padding: 10px 10px 10px 2%;
         }
         
         
@@ -1971,7 +2768,7 @@ padding-top: 10px;
         
         .kontac {
             width: 25%;
-            padding-right: 5%;
+            padding-right: 10%;
         }
         
         .logo-fut {
@@ -1987,35 +2784,39 @@ padding-top: 10px;
         }
         
         
+        
+        
+        
         .the-end {
             width: 100%;
             display: flex;
             justify-content: space-between;
             padding-top: 3%;
+            padding-left: 1%;
         }
         
         
         .tel {
             display: flex;
-            width: 25%;
+            width: auto;
         }
         
         .insta {
             display: flex;
-            width: 20%;
+            width: auto;
         
         }
         
         .email {
             display: flex;
-            width: 25%;
+            width: auto;
         
         }
         
         .akcia {
             display: flex;
-            justify-content: space-around;
-            width: 20%;
+            justify-content: space-between;
+            width: auto;
         }
         
         
@@ -2025,27 +2826,27 @@ padding-top: 10px;
         
         
         #red {
+            padding-left: 10%;
             color: red;
+            margin-right: 30%;
         }
         
         .men {
             display: flex;
-            justify-content: center;
-            width: 80%;
-            padding-left: 0;
+            justify-content: space-around;
+            align-items: center;
+            width: 65%;
+            height: 20px;
+            gap: 15px;
+            padding-right: 10%;
         }
+        
 
 
-
-
-
+   
+       
 
 }
-
-
-
-
-
 
 
 
