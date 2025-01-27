@@ -541,7 +541,7 @@ body {
     visibility: hidden;
     height: 0;
     overflow: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease, height 0.3s ease;
+    transition: opacity 4.0s ease, visibility 4.5s ease, height 4.0s ease;
     padding-top: 5%;
 }
 
@@ -1323,6 +1323,13 @@ body {
 
 body {
     height: 900px;
+}
+.menu {
+    width:20px;
+    height:11px;
+    object-fit: fill;
+    overflow: hidden;
+
 }
 
 .magazin768 , .magazin2768 , .foter768 , .navbig ,.nav5 ,.nav55  , .reklama1140px , .magaz1140  ,.magazin1140    {

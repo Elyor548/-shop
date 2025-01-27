@@ -795,6 +795,13 @@ body {
 
     }
 
+     
+    .input-big {
+        padding-left: 10px;
+    }
+
+
+
     .nav {
         display: flex;
         justify-content: space-around;
@@ -810,6 +817,12 @@ body {
     .logo {
         width: 140px;
     }
+
+     
+    .input-big {
+        padding-left: 10px;
+    }
+
 
     
     .search-container {
@@ -1482,6 +1495,13 @@ padding-top: 10px;
         padding-left: 15px;
         
     }
+
+     
+    .input-big {
+        padding-left: 10px;
+    }
+
+
     .navigav992box {
         display: flex;
         justify-content: center;
@@ -2076,6 +2096,13 @@ padding-top: 10px;
   .od-in {
     width: auto;
   }
+
+   
+  .input-big {
+    padding-left: 10px;
+}
+
+
 
   .navaaa {
     display: flex;
@@ -2856,60 +2883,14 @@ padding-top: 10px;
         }
         
         
-
+        .input-big {
+            padding-left: 10px;
+        }
 
 
    
        
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
