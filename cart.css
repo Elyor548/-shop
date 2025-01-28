@@ -109,7 +109,8 @@ body {
 
 
 
-@media (min-width: 320px ) and (max-width: 480px) {
+@media (min-width: 320px )  and (max-width: 600px) {
+    
 
 .nav-bar {
     margin-left: auto;
@@ -412,7 +413,688 @@ body {
 }
 
 
+.vam-ponravintsa {
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    padding-top: 30px;
+    padding-left: 20px;
+}
 
 
 
+.stol {
+width: 40%;
+}
+
+
+.divan {
+    width: 40%;
+    }
+
+.heart {
+    position: relative;
+    left: 115px;
+}
+
+.stilPrice1 {
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 500;
+    color: rgba(65, 65, 65, 1);
+    padding-top: 10px;
+}
+
+
+
+
+.stilPrice2 {
+    font-size: 11px;
+    line-height: 12.89px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    padding-top: 5px;
+}
+
+.stilPrice3 {
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 500;
+    color: rgba(65, 65, 65, 1);
+    padding-top: 7px;
+}
+
+
+
+.magazine {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+
+footer {
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+
+.fot-p {
+    font-size: 10px;
+    line-height: 12.67px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    width: 122px;
+    height: 35px;
+    padding-top: 8px;
+}
+
+.fot2 img {
+    width: 50px;
+    height: 41px;
+}
+
+.fot2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tell {
+    width: 11px;
+    height: 11px;
+}
+
+.tell1 {
+    width: 100px;
+    height: 13px;
+    font-size: 10px;
+    line-height: 12.67px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+}
+
+.tell2 {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.end {
+    display: flex;
+    justify-content: end;
+}
+
+.insta {
+    width: 11px;
+    height: 11px;
+}
+
+.insta1 {
+    width: 57px;
+    height: 13px;
+    font-size: 10px;
+    line-height: 12.67px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+}
+
+
+.gmail1 {
+    width: 119px;
+    height: 13px;
+    font-size: 10px;
+    line-height: 12.67px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+}
+
+
+.gmail {
+    width: 11px;
+    height: 11px; 
+}
+
+.insta2 {
+    display: flex;
+    width: 120px;
+    height: 13px;
+    gap: 10px;
+}
+
+
+.gmail2 {
+    display: flex;
+    width: 150px;
+    height: 13px;
+    gap: 10px;
+}
+
+.insta-gmail {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+}
+
+
+
+
+
+
+@media (min-width: 600px )  and (max-width: 768px) {
+    body {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+
+
+    .nav-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        width: auto;
+    }
+    
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .menu-logo {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nav-menu {
+        width: 35%;
+        height: 18px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .search-container {
+        border: 1.5px solid rgba(230, 230, 230, 1);
+        background-color: #f9f9f9;
+        width: auto;
+        height: 40px;
+        margin: 15px 17px 0px 17px;
+    
+    
+    
+    }
+    
+    /* Поле ввода */
+    .search-container input {
+        border: none;
+        outline: none;
+        font-size: 16px;
+        color: #333;
+        width: auto;
+        height: 40px;
+        justify-content: center;
+        padding-left: 15px;
+        
+    }
+    
+    .navigav-card {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        gap: 4%;
+    }
+    
+    
+    .korzina {
+        color: rgba(150, 150, 150, 1);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14.06px;
+        padding-top: 20px;
+        padding-left: 17px;
+    }
+    
+    
+    .korzina-skok {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    
+    .box {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 18.75px;
+        color: rgba(65, 65, 65, 1);
+        width: auto;
+    }
+    
+    
+    .box-sum {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 14.06px;
+        color: rgba(65, 65, 65, 1);
+        width: auto;
+    }
+    
+    
+    
+    .divan-korzina {
+        box-shadow: 
+        0 30px 60px rgba(255, 255, 255, 0.8), /* Яркая белая тень */
+        0 5px 10px rgba(0, 0, 0, 0.1); /* Лёгкая дополнительная тень */
+        margin-top: 20px;
+        height: 125px;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+    
+    
+    .nazfanie {
+        display: flex;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    
+    .x {
+        position: absolute;
+        right: 120px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .nazfanie1 {
+        font-size: 14px;
+        line-height: 14.06px;
+        font-weight: 500;
+        color: rgba(65, 65, 65, 1);
+        width: 130px;
+        height: 14px;
+    }
+    
+    .x {
+        color: rgba(201, 201, 201, 1);
+    }
+    
+    .pieces {
+        width: 27px; /* Ширина прямоугольника */
+        height: 20px; /* Высота прямоугольника */
+        background-color: white; /* Цвет фона */
+        border: 1px solid rgba(230, 230, 230, 1); /* Обводка */
+        border-radius: 7px; /* Закругленные углы */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px; /* Размер текста */
+        font-weight: 500; /* Жирность текста */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Лёгкая тень */
+    }
+    
+    .cost {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14.06px;
+        color: rgba(65, 65, 65, 1);
+        width: auto;
+        height: 14px;
+    }
+    
+    
+    .cost-1 {
+        display: flex; /* Включаем Flexbox */
+        flex-direction: column; /* Расположение сверху вниз */
+        height: 20px;
+        padding-left: 20px;
+    }
+    
+    .cost-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5px;
+        width: 100px;
+    }
+    
+    .color {
+        width: 40px;
+        height: 13px;
+        font-size: 13px;
+        line-height: 12.89px;
+        font-weight: 400;
+        color:rgba(65, 65, 65, 1) ;
+    }
+    
+    .color1 {
+        height: 20px;
+        font-size: 13px;
+        line-height: 12.89px;
+        font-weight: 400;
+        color: rgba(158, 158, 158, 1);
+    }
+    
+    .color2 {
+        width: 14px;
+        height: 14px;
+        background-color: rgba(53, 62, 77, 1);
+    }
+    
+    .blue {
+        display: flex;
+        width: 220px;
+        justify-content: space-around;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    
+    .size1 {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 12.89px;
+        width: 110px;
+        height: 13px;
+        color: rgba(65, 65, 65, 1);
+    }
+    
+    .size2 {
+        width: 150px;
+        height: 14px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 12.89px;
+        color: rgba(158, 158, 158, 1);
+    }
+    
+    .size {
+        width: 270px;
+        height: 14px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    
+    
+    
+    .result {
+        width: 150px;
+        height: 16px;
+        font-size: 15px;
+        line-height: 16.41px;
+        font-weight: 400;
+        color: rgba(65, 65, 65, 1);
+    }
+    
+    .total-price {
+        width: 70px;
+        height: 19px;
+        font-size: 17px;
+        line-height: 18.75px;
+        font-weight: 500;
+        color: rgba(65, 65, 65, 1);
+    }
+    
+    .total {
+        display: flex;
+        align-items: center;
+        width: 225px;
+        height: 19px;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    
+    .total {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    }
+    
+    
+    .zakaz {
+        background-color:rgba(36, 84, 98, 1) ;
+        width: 220px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 30px;
+    
+        
+        
+    }
+        
+    .zakaz1 {
+        color: rgba(255, 255, 255, 1);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15.23px;
+    }
+    
+    
+    .vam-ponravintsa {
+        font-size: 17px;
+        line-height: 18.75px;
+        font-weight: 400;
+        color: rgba(65, 65, 65, 1);
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    
+    
+    
+    .stol {
+    width: 40%;
+    }
+    
+    
+    .divan {
+        width: 40%;
+        }
+    
+    .heart {
+        position: relative;
+        left: 120px;
+    }
+    
+    .stilPrice1 {
+        font-size: 14px;
+        line-height: 16.41px;
+        font-weight: 500;
+        color: rgba(65, 65, 65, 1);
+        padding-top: 10px;
+    }
+    
+    
+    
+    
+    .stilPrice2 {
+        font-size: 11px;
+        line-height: 12.89px;
+        font-weight: 400;
+        color: rgba(65, 65, 65, 1);
+        padding-top: 5px;
+    }
+    
+    .stilPrice3 {
+        font-size: 14px;
+        line-height: 16.41px;
+        font-weight: 500;
+        color: rgba(65, 65, 65, 1);
+        padding-top: 7px;
+    }
+    
+    
+    
+    .magazine {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 30px;
+    }
+    
+    
+    footer {
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    
+    
+    .fot-p {
+        font-size: 13px;
+        line-height: 12.67px;
+        font-weight: 400;
+        color: rgba(65, 65, 65, 1);
+        width: 122px;
+        height: 35px;
+        padding-top: 8px;
+    }
+    
+    .fot2 img {
+        width: 55px;
+        height: 45px;
+    }
+    
+    .fot2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .tell {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .tell1 {
+        width: 120px;
+        height: 14px;
+        font-size: 12px;
+        line-height: 12.67px;
+        font-weight: 400;
+        color: rgba(65, 65, 65, 1);
+    }
+    
+    .tell2 {
+        display: flex;
+        gap: 10px;
+        padding-top: 10px;
+    }
+    
+    .end {
+        display: flex;
+        justify-content: end;
+    }
+    
+    .insta {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .insta1 {
+        width: 60px;
+        height: 14px;
+        font-size: 10px;
+        line-height: 12.67px;
+        font-weight: 400;
+        color: rgba(65, 65, 65, 1);
+    }
+    
+    
+    .gmail1 {
+        width: 130px;
+        height: 14px;
+        font-size: 13px;
+        line-height: 12.67px;
+        font-weight: 400;
+        color: rgba(65, 65, 65, 1);
+    }
+    
+    
+    .gmail {
+        width: 12px;
+        height: 12px; 
+    }
+    
+    .insta2 {
+        display: flex;
+        width: 120px;
+        height: 13px;
+        gap: 10px;
+    }
+    
+    
+    .gmail2 {
+        display: flex;
+        width: 150px;
+        height: 13px;
+        gap: 10px;
+    }
+    
+    .insta-gmail {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width: 600px )  and (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
