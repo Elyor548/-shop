@@ -110,7 +110,7 @@ body {
 
 @media (min-width: 320px )  and (max-width: 600px) {
     
-    .navigav-card-768 , .korzina  , .img768 , .arrow-768 , .sorch-768 , .dostavka , .stol2 , .foter768 {
+    .navigav-card-768 , .korzina  , .img768 , .arrow-768 , .sorch-768 , .dostavka , .stol2 , .foter768  , .gl-1140 , .tell-me1140 , .navigav-card1140px , .magazin1140 {
         display: none;
     }
 .nav-bar {
@@ -593,7 +593,7 @@ footer {
 
 @media (min-width: 600px )  and (max-width: 768px) {
     
-    .navigav-card-768 , .korzina , .img768 , .arrow-768 , .sorch-768 , .dostavka , .stol2 , .foter768 {
+    .navigav-card-768 , .korzina , .img768 , .arrow-768 , .sorch-768 , .dostavka , .stol2 , .foter768 , .gl-1140 , .tell-me1140 , .navigav-card1140px , .magazin1140 {
         display: none;
     }
 
@@ -1097,9 +1097,8 @@ footer {
 }
 
 
-@media (min-width: 768px )  
-/* and (max-width: 1140px) { */ {
-    .search-container , .navigav-card , .korzina  , .img320 , .fot-1 {
+@media (min-width: 768px )  and (max-width: 1140px)  {
+    .search-container , .navigav-card , .korzina  , .img320 , .fot-1 , .gl-1140 , .tell-me1140 , .navigav-card1140px , .magazin1140 {
     display: none;
     }
 
@@ -1587,6 +1586,8 @@ footer {
         display: flex;
         justify-content: space-around;
         padding: 10px;
+        position: relative;
+        right: 15px;
     }
     
     
@@ -1672,4 +1673,664 @@ footer {
 }
 
 
+
+
+
+
+@media (min-width: 1140px ) {
+
+    .menu , .search-container , .navigav-card  , .korzina , .img320 , .magazine , .fot-1 {
+        display: none;
+    }
+
+header {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.nav-bar {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: auto;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    width: 113px;
+    height: 26px;
+}
+
+
+.gl-1140 {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+
+
+.search-containerr {
+    border: 1.5px solid rgba(230, 230, 230, 1);
+    background-color: #f9f9f9;
+    width: auto;
+    height: 40px;
+
+
+
+}
+
+/* Поле ввода */
+.search-containerr input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #333;
+    width: auto;
+    height: 40px;
+    justify-content: center;
+    padding-left: 15px;
+    width: 243px;
+
     
+}
+
+.sorch-768 {
+    width: 25%;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+
+.tell-me1140 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tell-me {
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    width: 115px;
+    height: 16px;
+}
+
+
+.navigav-card-768 {
+    display: flex;
+    box-shadow: 
+    0 30px 60px rgba(255, 255, 255, 0.8), /* Яркая белая тень */
+    0 5px 10px rgba(0, 0, 0, 0.1); /* Лёгкая дополнительная тень */
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: auto;
+}
+
+.navigav-card1140px {
+    display: flex;
+    justify-content: space-around;
+    width: 4%;
+    align-items: center;
+}
+
+
+.navigav-card-768-end {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+
+}
+
+.img-menu {
+    margin-left: 20px;
+}
+
+.red-a {
+    color: rgba(215, 68, 68, 1);
+}
+
+section {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px; 
+}
+
+
+.korzina-768 {
+    font-size: 13px;
+    line-height: 14.06px;
+    font-weight: 400;
+    color: rgba(150, 150, 150, 1);
+}
+
+
+.korzina-skok {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+.box {
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+}
+
+
+.box-sum {
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+}
+
+
+
+
+
+
+
+.divan-korzina {
+    box-shadow: 
+    0 30px 60px rgba(255, 255, 255, 1), /* Яркая белая тень */
+    0 5px 10px rgba(0, 0, 0, 0.1); /* Лёгкая дополнительная тень */
+    margin-top: 20px;
+    height: 125px;
+
+
+}
+
+
+.nazfanie {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+
+
+.x {
+    position: absolute;
+    right: 70px;
+    top: 250px;
+    box-shadow: 
+    0 30px 60px rgba(249, 249, 249, 1), /* Яркая белая тень */
+    0 5px 10px rgba(0, 0, 0, 0.1); /* Лёгкая дополнительная тень */
+    width: 30px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.img768 {
+    width: 120px;
+    height: 90px;
+}
+
+.size-color-768 {
+    width: 520px;
+    height: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 165px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+.nazfanie1 {
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 500;
+    color: rgba(65, 65, 65, 1);
+    width: 130px;
+    height: 14px;
+}
+
+.x {
+    color: rgba(201, 201, 201, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.pieces {
+    width: 27px; /* Ширина прямоугольника */
+    height: 20px; /* Высота прямоугольника */
+    background-color: white; /* Цвет фона */
+    border: 1px solid rgba(230, 230, 230, 1); /* Обводка */
+    border-radius: 7px; /* Закругленные углы */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px; /* Размер текста */
+    font-weight: 500; /* Жирность текста */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Лёгкая тень */
+}
+
+.cost {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14.06px;
+    color: rgba(65, 65, 65, 1);
+    width: auto;
+    height: 14px;
+}
+
+
+.cost-1 {
+    display: flex; /* Включаем Flexbox */
+    flex-direction: column; /* Расположение сверху вниз */
+    height: 20px;
+    padding-left: 50px;
+}
+
+.cost-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    width: 100px;
+}
+
+.color {
+    width: 40px;
+    height: 13px;
+    font-size: 13px;
+    line-height: 14.06px;
+    font-weight: 400;
+    color:rgba(65, 65, 65, 1) ;
+}
+
+.color1 {
+    height: 20px;
+    font-size: 13px;
+    line-height: 14.6px;
+    font-weight: 400;
+    color: rgba(158, 158, 158, 1);
+}
+
+.color2 {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(53, 62, 77, 1);
+}
+
+.blue {
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+.size1 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.06px;
+    width: 110px;
+    height: 13px;
+    color: rgba(65, 65, 65, 1);
+}
+
+.size2 {
+    width: 150px;
+    height: 14px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.06px;
+    color: rgba(158, 158, 158, 1);
+}
+
+.size {
+    width: 270px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+.result {
+    width: 160px;
+    height: 16px;
+    font-size: 15px;
+    line-height: 16.41px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+}
+
+.total-price {
+    width: 70px;
+    height: 19px;
+    font-size: 17px;
+    line-height: 18.75px;
+    font-weight: 500;
+    color: rgba(65, 65, 65, 1);
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    width: 225px;
+    height: 19px;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+
+
+.zakaz {
+    background-color:rgba(36, 84, 98, 1) ;
+    width: 220px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+
+
+    
+    
+}
+    
+.zakaz1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.23px;
+}
+
+
+
+.total-768 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+
+
+.vam-ponravintsa {
+    font-size: 17px;
+    line-height: 18.75px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+.stol {
+    width: 22.5%;
+}
+
+
+.stol2 {
+    width: 22.5%;
+}
+
+.mebel {
+   width: 160px;
+   height: 120px; 
+}
+
+.heart {
+    position: relative;
+    left: 210px;
+}
+
+.stilPrice1 {
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 500;
+    color: rgba(65, 65, 65, 1);
+    padding-top: 10px;
+}
+
+
+
+
+.stilPrice2 {
+    font-size: 11px;
+    line-height: 12.89px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    padding-top: 5px;
+}
+
+.stilPrice3 {
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 500;
+    color: rgba(65, 65, 65, 1);
+    padding-top: 7px;
+}
+
+
+
+.magazin1140 {
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.foter768 {
+    width: 100%;
+    height: 20%;
+    box-shadow: 
+    0 30px 60px rgba(255, 255, 255, 0.8), /* Яркая белая тень */
+    0 30px 50px rgba(0, 0, 0, 0.3); /* Более выраженная чёрная тень */
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+
+.foterN {
+    width: 50%;
+    font-size: 17px;
+    font-weight: 900;
+    padding-left: 30px;
+    padding-top: 4%;
+}
+
+
+.nav-foter {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: relative;
+    right: 25px;
+}
+
+
+.fot-li {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 7%;
+}
+
+
+.fot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kontac {
+    width: 300px;
+    text-align: end;
+
+
+}
+
+.logo-fut {
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    padding-right: 30px;
+
+}
+.lokated {
+    width: 220px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.74px;
+    padding-top: 20px;
+    position: relative;
+    right: 0;
+    left: 40px;
+
+
+}
+
+
+.the-end {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+
+.tel {
+    display: flex;
+    width: 25%;
+}
+
+.insta {
+    display: flex;
+    width: 20%;
+
+}
+
+.email {
+    display: flex;
+    width: 25%;
+
+}
+
+.akcia {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    padding-right: 60px;
+}
+
+
+.img-fot {
+    margin: 0px 10px 0px 0px;
+}
+
+
+#red {
+    color: red;
+}
+
+.men {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    padding-left: 0;
+    position: relative;
+    right: 60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
