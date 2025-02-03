@@ -1,0 +1,515 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1;
+    background: none;
+    color: inherit;
+}
+
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, textarea, button, select, option {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    padding: 0;
+    margin: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+pre, code {
+    font-family: monospace;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #ccc;
+}
+
+blockquote, figure {
+    margin: 0;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Roboto", serif;
+    background-color: #ffffff;
+}
+
+
+
+
+
+@media (min-width: 320px )  and (max-width: 600px) {
+    
+    .navigav-card-768 , .korzina  , .img768 , .arrow-768 , .sorch-768 , .dostavka , .stol2 , .foter768  , .gl-1140 , .tell-me1140 , .navigav-card1140px , .magazin1140 , .search-containerr {
+        display: none;
+    }
+.nav-bar {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: auto;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.menu-logo {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu {
+    width: 35%;
+    height: 18px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-container {
+    border: 1.5px solid rgba(230, 230, 230, 1);
+    background-color: rgba(249, 249, 249, 1);
+    width: auto;
+    height: 40px;
+    margin: 15px 17px 0px 17px;
+
+
+
+}
+
+/* Поле ввода */
+.search-container-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    width: auto;
+    height: 40px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    background-color: none;
+    
+}
+
+
+.navigav-card {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 2%;
+}
+
+.contact {
+    color: rgba(150, 150, 150, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    padding-top: 20px;
+    padding-left: 17px;
+}
+
+.svyaz {
+    color: rgba(65, 65, 65, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    padding-top: 20px;
+    padding-left: 17px;
+
+}
+
+
+.contact-form {
+    width: 95%;
+    padding-left: 17px;
+
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+.file-btn {
+    background: rgba(255, 255, 255, 1);
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgba(65, 65, 65, 1);
+    font-weight: 400;
+    line-height: 14.06px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 141px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.file-btn input {
+    display: none;
+}
+
+button {
+    background: rgba(36, 84, 98, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 14.06px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 101px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 25px;
+    gap: 15px;
+}
+
+
+.name {
+    color: rgba(150, 150, 150, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    padding-top: 20px;
+
+}
+
+.email {
+    color: rgba(150, 150, 150, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    padding-top: 20px;
+
+}
+
+.message {
+    color: rgba(150, 150, 150, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    padding-top: 20px;
+
+}
+
+.mobail-tel {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    line-height: 12.67px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    gap: 8px;
+    padding-top: 10px;
+
+}
+
+.gmail-phone {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    line-height: 12.67px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    gap: 7px;
+    padding-top: 15px;
+
+
+}
+
+.insta-phone {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    line-height: 12.67px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    gap: 7px;
+    padding-top: 15px;
+
+}
+
+.social-net {
+    width: 141px;
+    padding-top: 25px;
+    padding-left: 18px;
+    
+}
+
+.adress {
+    font-size: 10px;
+    line-height: 12.67px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    padding-left: 18px;
+    padding-top: 20px;
+}
+
+
+.adress-compani {
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    padding-left: 18px;
+    padding-top: 20px;
+}
+
+
+ #map-img {
+    width: 290px;
+    height: 250px;
+}
+
+.located {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+} 
+
+
+
+footer {
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+    box-shadow: 
+    0 30px 60px rgba(255, 255, 255, 0.8), /* Яркая белая тень */
+    0 5px 10px rgba(0, 0, 0, 0.1); /* Лёгкая дополнительная тень */
+}
+
+
+.fot-p {
+    font-size: 10px;
+    line-height: 12.67px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+    width: 122px;
+    height: 35px;
+    padding-top: 8px;
+}
+
+.fot2 img {
+    width: 50px;
+    height: 41px;
+}
+
+.fot2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tell {
+    width: 11px;
+    height: 11px;
+}
+
+.tell1 {
+    width: 100px;
+    height: 13px;
+    font-size: 10px;
+    line-height: 12.67px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+}
+
+.tell2 {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.end {
+    display: flex;
+    justify-content: end;
+}
+
+.insta {
+    width: 11px;
+    height: 11px;
+}
+
+.insta1 {
+    width: 57px;
+    height: 13px;
+    font-size: 10px;
+    line-height: 12.67px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+}
+
+
+.gmail1 {
+    width: 119px;
+    height: 13px;
+    font-size: 10px;
+    line-height: 12.67px;
+    font-weight: 400;
+    color: rgba(65, 65, 65, 1);
+}
+
+
+.gmail {
+    width: 11px;
+    height: 11px; 
+}
+
+.insta2 {
+    display: flex;
+    width: 120px;
+    height: 13px;
+    gap: 10px;
+}
+
+
+.gmail2 {
+    display: flex;
+    width: 150px;
+    height: 13px;
+    gap: 10px;
+}
+
+.insta-gmail {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
