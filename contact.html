@@ -26,8 +26,8 @@
                 <!-- для экрана 1140  -->
                 <div class="gl-1140">
                     <a href="./index.html">Главная</a>
-                    <a href="#">О нас</a>
-                    <a href="#">Контакты</a>
+                    <a href="./contact.html">О нас</a>
+                    <a href="./contact.html">Контакты</a>
                 </div>
 
                 <!-- sorch-768 это только для 768  -->
@@ -44,7 +44,7 @@
                     <a class="dostavka" href="#"><img src="./img/dostavka.svg" alt=""></a>
                     <a href="#"><img src="./img/heart.svg" alt=""></a>
                     <a href="./korzina.html"><img src="./img/bag-black.svg" alt=""></a>
-                    <a href="#"><img src="./img/chelovek.svg" alt=""></a>
+                    <a href="./contact.html"><img src="./img/chelovek.svg" alt=""></a>
                 </div>
             </div>
         </div>
@@ -128,57 +128,72 @@
 
 
 
+        <div class="boss">
+            <div class="contact-form-768">
+                <form action="#" method="post">
+                    <div class="name-email-768">
+                        <label class="name" for="name">Ваше имя</label>
+                        <label class="email" for="email">Ваш e-mail</label>
+                    </div>
+                    <div class="name-email-768">
+                        <input type="text" id="name" name="name" required>
+                        <input type="email" id="email" name="email" required>
+                    </div>
 
-        <div class="contact-form-768">
-            <form action="#" method="post">
-                <div class="name-email-768">
-                    <label class="name" for="name">Ваше имя</label>
-                    <label class="email" for="email">Ваш e-mail</label>
+
+                    <label class="message" for="message">Сообщение</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <div class="buttons">
+                        <label class="file-btn">
+                            Прикрепить файл
+                            <input type="file">
+                        </label>
+                        <button type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="social-net">
+                <div class="phone-gmail-1140">
+                    <div class="mobail-tel">
+                        <img src="./img/tel768.svg" alt="">
+                        <p>8 (964) 89 99 119</p>
+                    </div>
+                    <div class="gmail-phone">
+                        <img src="./img/gmail.svg" alt="">
+                        <p>mebel_loft_anapa@mail.ru</p>
+                    </div>
                 </div>
-                <div class="name-email-768">
-                    <input type="text" id="name" name="name" required>
-                    <input type="email" id="email" name="email" required>
+
+                <div class="insta-phone">
+                    <img src="./img/insta.svg" alt="">
+                    <p>INSTAGRAM</p>
                 </div>
 
-
-                <label class="message" for="message">Сообщение</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <div class="buttons">
-                    <label class="file-btn">
-                        Прикрепить файл
-                        <input type="file">
-                    </label>
-                    <button type="submit">Отправить</button>
+                <div class="address-1140">
+                    <p class="adress">Адрес: г. Анапа, Анапское шоссе, 30 Ж/К Черное море</p>
                 </div>
-            </form>
+            </div>
+
+            <div class="adres768">
+                <p class="adress">Адрес: г. Анапа, Анапское шоссе, 30 Ж/К Черное море</p>
+            </div>
         </div>
-
-
-        <div class="social-net">
-            <div class="mobail-tel">
-                <img src="./img/tel768.svg" alt="">
-                <p>8 (964) 89 99 119</p>
-            </div>
-            <div class="gmail-phone">
-                <img src="./img/gmail.svg" alt="">
-                <p>mebel_loft_anapa@mail.ru</p>
-            </div>
-            <div class="insta-phone">
-                <img src="./img/insta.svg" alt="">
-                <p>INSTAGRAM</p>
-            </div>
-        </div>
-
-
-        <p class="adress">Адрес: г. Анапа, Анапское шоссе, 30 Ж/К Черное море</p>
 
         <p class="adress-compani">Адрес нашей компании</p>
+
+
 
         <div class="located">
             <img id="map-img"
                 src="https://static-maps.yandex.ru/1.x/?ll=37.323788,44.895902&size=600,400&z=17&l=map&pt=37.323788,44.895902,pm2rdm"
                 alt="Карта Яндекса">
+        </div>
+
+        <div class="located-1140">
+            <img id="map-img-1140" src="./img/map-1140.svg" alt="Карта Яндекса">
         </div>
 
     </section>
