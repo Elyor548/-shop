@@ -106,46 +106,16 @@ body {
     height: 1400px;
     background-color: #ffffff;
 }
-.mobile-menu {
-    position: fixed;
-    top: 0;
-    left: -100%; /* За пределами экрана */
-    width: 70%;
-    height: 100%;
-    background-color: #ffffff;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    transition: left 0.3s ease-in-out;
-    z-index: 100;
-  }
-  .menu-active {
-    left: 0; /* Выезжает на экран */
+
+
+
+
+.disp {
+    display: none;
 }
 
-/* Логотип внутри меню */
-.menu-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0; /* Отступы сверху и снизу */
-    border-bottom: 1px solid #ccc; /* Разделительная линия */
-    z-index: 100;
-
-}
-
-.menu-logo img {
-    width: 100px; /* Ширина твоего логотипа */
-    height: auto;
-    z-index: 1000;
-
-}
-
-
-#menuli {
-    padding: 7px;
-    font-size: 13px;
-    font-weight: bold;
-
+.dispa {
+    display: none;
 }
 
 
@@ -743,6 +713,161 @@ body {
 }
 
 
+#menuing {
+    position: absolute;
+    left: 0;
+    background-color: rgba(249, 249, 249, 1);
+    width: 250px;
+    height: calc(100% + 1810px);
+    box-shadow: rgba(0, 0, 0, 0.07);
+    z-index: 100;
+    padding: 0;
+    margin-top: -40px; /* Убирает паддинг родителя */
+}
+
+#burgering {
+    z-index: 110;
+}
+
+.glaf-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+
+
+.onas-menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 130px;
+    left: 40px;
+
+}
+
+.contact-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 160px;
+    left: 40px;
+
+}
+
+
+.kategoria-menu {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15.23px;
+    color: rgba(65, 65, 65, 1)
+
+}
+
+.kuhna-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 240px;
+    left: 40px;
+
+}
+
+.spalna-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 280px;
+    left: 40px;
+
+}
+
+.gostinaya-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 320px;
+    left: 40px;
+
+}
+
+
+.prihojie-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 360px;
+    left: 40px;
+
+}
+
+.offic-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 400px;
+    left: 40px;
+
+}
+
+.children-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 440px;
+    left: 40px;
+
+}
+
+.aciya-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 480px;
+    left: 40px;
+
+}
+
+.novinka-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 520px;
+    left: 40px;
+
+}
+
+.actiya {
+    color: red;
+    left: 40px;
+
+}
 
 
 
@@ -1415,6 +1540,164 @@ padding-top: 10px;
 }
 
 
+
+#menuing {
+    position: absolute;
+    left: 0;
+    background-color: rgba(249, 249, 249, 1);
+    width: 250px;
+    height: calc(100% + 1810px);
+    box-shadow: rgba(0, 0, 0, 0.07);
+    z-index: 100;
+    padding: 0;
+    margin-top: -40px; /* Убирает паддинг родителя */
+}
+
+#burgering {
+    z-index: 110;
+}
+
+.glaf-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+
+
+.onas-menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 130px;
+    left: 40px;
+
+}
+
+.contact-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 160px;
+    left: 40px;
+
+}
+
+
+.kategoria-menu {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15.23px;
+    color: rgba(65, 65, 65, 1)
+
+}
+
+.kuhna-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 240px;
+    left: 40px;
+
+}
+
+.spalna-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 280px;
+    left: 40px;
+
+}
+
+.gostinaya-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 320px;
+    left: 40px;
+
+}
+
+
+.prihojie-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 360px;
+    left: 40px;
+
+}
+
+.offic-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 400px;
+    left: 40px;
+
+}
+
+.children-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 440px;
+    left: 40px;
+
+}
+
+.aciya-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 480px;
+    left: 40px;
+
+}
+
+.novinka-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 190px;
+    position: absolute;
+    top: 520px;
+    left: 40px;
+
+}
+
+.actiya {
+    color: red;
+    left: 40px;
+
+}
+
+
 }
 
 
@@ -2079,7 +2362,137 @@ padding-top: 10px;
     padding-left: 0;
 }
 
+#menu {
+    position: absolute;
+    left: 0;
+    background-color: rgba(249, 249, 249, 1);
+    width: 300px;
+    height:calc(100% + 1780px) ;
+    box-shadow: rgba(0, 0, 0, 0.07);
+    z-index: 100;
+    padding: 0;
+    margin-top: -40px; /* Убирает паддинг родителя */
+}
 
+#burger {
+    z-index: 110;
+}
+
+.glaf-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 227px;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+
+
+.onas-menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 50px;
+}
+
+.contact-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 100px;
+}
+
+
+.kategoria-menu {
+    position: absolute;
+    top: 160px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15.23px;
+    color: rgba(65, 65, 65, 1)
+
+}
+
+.kuhna-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 200px;
+}
+
+.spalna-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 240px;
+}
+
+.gostinaya-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 280px;
+}
+
+.prihojie-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 320px;
+}
+
+.offic-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 360px;
+}
+
+.children-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 400px;
+}
+
+.aciya-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 440px;
+}
+
+.novinka-menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    width: 220px;
+    position: absolute;
+    top: 480px;
+}
+
+.actiya {
+    color: red;
+}
 
 
 }
